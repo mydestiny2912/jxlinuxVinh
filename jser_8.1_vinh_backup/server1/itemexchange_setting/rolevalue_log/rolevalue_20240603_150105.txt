@@ -1,0 +1,91 @@
+[Normal]Item: Kim Phong §o¹t Hån Ngäc ®¸i(0,1,180,1,4,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Thanh D­¬ng Kh«i(0,1,176,4,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Kú L©n HuyÕt(0,1,177,18,0,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Tr¹c Liªn Quang(0,1,178,1,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Thiªn Lý Th¶o Th­îng Phi(0,1,183,1,4,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong HËu NghÖ dÉn cung(0,1,181,1,3,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Lan §×nh Ngäc(0,1,182,1,0,5), unbind = 0, bind = 0
+[Normal]Item: Ph¸ Phong §ao(0,0,0,1,1,6), unbind = 0, bind = 0
+[Normal]Item: U Lung Kim Xµ Ph¸t ®¸i(0,1,55,2,1,10),(116,0) = [10,0],(139,69) = [3,392],(139,75) = [1,0], unbind = 0, bind = 3690
+[Normal]Item: U Lung XÝch YÕt MËt trang(0,1,56,16,2,10),(113,0) = [40,0],(139,353) = [1,0], unbind = 0, bind = 7500
+[Normal]Item: U Lung Thanh Ng« TriÒn yªu(0,1,57,1,0,10),(139,63) = [3,175],(104,0) = [30,140],(110,0) = [40,35], unbind = 0, bind = 33750
+[Normal]Item: U Lung Ng©n ThÒm Hé UyÓn(0,1,58,1,4,10), unbind = 0, bind = 0
+[Normal]Item: U Lung MÆc Thï NhuyÔn Lý (0,1,59,1,1,10),(111,0) = [46,10],(139,73) = [2,5], unbind = 0, bind = 1917
+[Normal]Item: Thanh Phong KiÕm(0,0,0,0,3,3), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Tr¹c Liªn Quang(0,1,178,1,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Bµn Hoa C«n (0,0,0,2,0,3), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Tr¹c Liªn Quang(0,1,178,1,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Tr¹c Liªn Quang(0,1,178,1,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Tr¹c Liªn Quang(0,1,178,1,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Tr¹c Liªn Quang(0,1,178,1,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Tinh Trang Tô TiÔn(0,0,1,2,2,3), unbind = 0, bind = 0
+[Normal]Item: ThiÕt Th­¬ng(0,0,0,3,0,1), unbind = 0, bind = 0
+[Normal]Item: Tô TiÔn(0,0,1,2,2,1), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Ph¸ Phong §ao(0,0,0,1,1,6), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Lan §×nh Ngäc(0,1,182,1,0,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong HËu NghÖ dÉn cung(0,1,181,1,3,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Thiªn Lý Th¶o Th­îng Phi(0,1,183,1,4,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Tr¹c Liªn Quang(0,1,178,1,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Kú L©n HuyÕt(0,1,177,18,0,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Thanh D­¬ng Kh«i(0,1,176,4,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §o¹t Hån Ngäc ®¸i(0,1,180,1,4,5), unbind = 0, bind = 0
+[Normal]Item: TuyÕt Hoa L­îng Ng©n §ao(0,0,0,5,1,5), unbind = 0, bind = 0
+[Normal]Item: Uyªn ¦¬ng §ao(0,0,0,5,0,6), unbind = 0, bind = 0
+[Normal]Item: Can Bæng(0,0,0,2,4,6), unbind = 0, bind = 0
+[Normal]Item: ThËp tù tiªu(0,0,1,0,1,4), unbind = 0, bind = 0
+[Normal]Item: Hµm Sa X¹ ¶nh(0,0,1,2,1,6), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §o¹t Hån Ngäc ®¸i(0,1,180,1,4,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Thanh D­¬ng Kh«i(0,1,176,4,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Kú L©n HuyÕt(0,1,177,18,0,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Tr¹c Liªn Quang(0,1,178,1,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Thiªn Lý Th¶o Th­îng Phi(0,1,183,1,4,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong HËu NghÖ dÉn cung(0,1,181,1,3,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Lan §×nh Ngäc(0,1,182,1,0,5), unbind = 0, bind = 0
+[Normal]Item: Ph¸ Phong §ao(0,0,0,1,1,6), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §ång T­íc Xu©n Th©m(0,1,184,0,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Ph¸ Phong §ao(0,0,0,1,1,6), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Lan §×nh Ngäc(0,1,182,1,0,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong HËu NghÖ dÉn cung(0,1,181,1,3,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Thiªn Lý Th¶o Th­îng Phi(0,1,183,1,4,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Tr¹c Liªn Quang(0,1,178,1,1,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Kú L©n HuyÕt(0,1,177,18,0,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong Thanh D­¬ng Kh«i(0,1,176,4,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 0
+[Normal]Item: Kim Phong §o¹t Hån Ngäc ®¸i(0,1,180,1,4,5), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,0,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,0,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,0,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,0,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,0,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,0,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,0,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,0,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,0,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,0,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,0,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,0,10), unbind = 0, bind = 0

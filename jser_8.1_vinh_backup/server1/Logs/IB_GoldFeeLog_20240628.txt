@@ -1,0 +1,8 @@
+  c                    	[2024-06-28 01:25:41]	[SUCCESS]	[ACC]	hqtest001	[ROLE]	TheQueen	[C]	10	[COUNT]	1	[BUY]	[6-1-2424-1]§¹i Thµnh BÝ KÝp 90	[PLACE]	140
+  c                    	[2024-06-28 01:25:54]	[SUCCESS]	[ACC]	hqtest001	[ROLE]	TheQueen	[C]	10	[COUNT]	1	[BUY]	[6-1-1427-1]Tö MÉu LÖnh	[PLACE]	145
+  c                    	[2024-06-28 01:26:05]	[SUCCESS]	[ACC]	hqtest001	[ROLE]	TheQueen	[C]	50	[COUNT]	1	[BUY]	[6-1-2332-1]M· bµi - ChiÕu D¹ Ngäc S­ Tö	[PLACE]	142
+  c                    	[2024-06-28 01:26:10]	[SUCCESS]	[ACC]	hqtest001	[ROLE]	TheQueen	[C]	2	[COUNT]	1	[BUY]	[6-1-2527-1]Håi thiªn t¸i t¹o lÔ bao	[PLACE]	139
+  c                    	[2024-06-28 01:26:16]	[SUCCESS]	[ACC]	hqtest001	[ROLE]	TheQueen	[C]	2	[COUNT]	1	[BUY]	[6-1-440-1]M¶nh S¬n Hµ X· T¾c (100) 	[PLACE]	139
+  c                    	[2024-06-28 01:26:20]	[SUCCESS]	[ACC]	hqtest001	[ROLE]	TheQueen	[C]	10	[COUNT]	1	[BUY]	[6-1-2218-1]Hång ¶nh B¶o R­¬ng	[PLACE]	139
+  c                    	[2024-06-28 01:54:04]	[SUCCESS]	[ACC]	hqtest001	[ROLE]	TheQueen	[C]	1	[COUNT]	1	[BUY]	[6-1-2432-1]LÖnh bµi Vi S¬n ®¶o	[PLACE]	145
+  c                    	[2024-06-28 01:54:05]	[SUCCESS]	[ACC]	hqtest001	[ROLE]	TheQueen	[C]	1	[COUNT]	1	[BUY]	[6-1-1448-1]M¹c B¾c TruyÒn Tèng LÖnh	[PLACE]	145

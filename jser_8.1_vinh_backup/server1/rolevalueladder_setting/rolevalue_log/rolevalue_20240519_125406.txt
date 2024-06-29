@@ -1,0 +1,50 @@
+[Normal]Item: Tö M·ng Xuyªn T©m H¹ng Liªn(0,1,1934,1,0,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m Ph¸t §¸i(0,1,1935,2,2,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m Th­îng Giíi(0,1,1936,0,1,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m Hé UyÓn(0,1,1937,1,3,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m Yªu §¸i(0,1,1938,1,4,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m BÝ Trang(0,1,1939,2,0,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m §ao(0,1,1940,1,2,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m Ngoa(0,1,1941,1,1,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m Yªu Trôy(0,1,1942,1,3,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m H¹ Giíi(0,1,1943,0,4,10), unbind = 0, bind = 1200
+[Normal]Item: HuyÒn Viªn HuyÕt S¸t H¹ng Liªn(0,1,1704,1,0,10), unbind = 0, bind = 500
+[Normal]Item: HuyÒn Viªn HuyÕt S¸t Ph¸t §¸i(0,1,1705,2,2,10), unbind = 0, bind = 500
+[Normal]Item: HuyÒn Viªn HuyÕt S¸t Th­îng Giíi(0,1,1706,0,1,10), unbind = 0, bind = 500
+[Normal]Item: HuyÒn Viªn HuyÕt S¸t Hé UyÓn(0,1,1707,1,3,10), unbind = 0, bind = 500
+[Normal]Item: HuyÒn Viªn HuyÕt S¸t Yªu §¸i(0,1,1708,1,4,10), unbind = 0, bind = 500
+[Normal]Item: HuyÒn Viªn HuyÕt S¸t BÝ Trang(0,1,1709,2,0,10), unbind = 0, bind = 500
+[Normal]Item: HuyÒn Viªn HuyÕt S¸t §ao(0,1,1710,1,2,10), unbind = 0, bind = 500
+[Normal]Item: HuyÒn Viªn HuyÕt S¸t Ngoa(0,1,1711,1,1,10), unbind = 0, bind = 500
+[Normal]Item: HuyÒn Viªn HuyÕt S¸t Yªu Trôy(0,1,1712,1,3,10), unbind = 0, bind = 500
+[Normal]Item: HuyÒn Viªn HuyÕt S¸t H¹ Giíi(0,1,1713,0,4,10), unbind = 0, bind = 500
+[Normal]Item: Thanh C©u Lôc Quang H¹ng Liªn(0,1,1014,1,0,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang Ph¸t §¸i(0,1,1015,2,2,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang Th­îng Giíi(0,1,1016,0,1,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang Hé UyÓn(0,1,1017,1,3,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang Yªu §¸i(0,1,1018,1,4,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang BÝ Trang(0,1,1019,2,0,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang §éc NhÉn(0,1,1020,1,2,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang Ngoa(0,1,1021,1,1,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang Yªu Trôy(0,1,1022,1,3,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang H¹ Giíi(0,1,1023,0,4,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang H¹ Giíi(0,1,1023,0,4,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang Yªu Trôy(0,1,1022,1,3,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang Ngoa(0,1,1021,1,1,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang §éc NhÉn(0,1,1020,1,2,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang BÝ Trang(0,1,1019,2,0,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang Yªu §¸i(0,1,1018,1,4,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang Hé UyÓn(0,1,1017,1,3,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang Th­îng Giíi(0,1,1016,0,1,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang Ph¸t §¸i(0,1,1015,2,2,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u Lôc Quang H¹ng Liªn(0,1,1014,1,0,10), unbind = 0, bind = 20
+[Normal]Item: Tö M·ng Xuyªn T©m H¹ Giíi(0,1,1943,0,4,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m Yªu Trôy(0,1,1942,1,3,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m Ngoa(0,1,1941,1,1,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m §ao(0,1,1940,1,2,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m BÝ Trang(0,1,1939,2,0,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m Yªu §¸i(0,1,1938,1,4,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m Hé UyÓn(0,1,1937,1,3,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m Th­îng Giíi(0,1,1936,0,1,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m Ph¸t §¸i(0,1,1935,2,2,10), unbind = 0, bind = 1200
+[Normal]Item: Tö M·ng Xuyªn T©m H¹ng Liªn(0,1,1934,1,0,10), unbind = 0, bind = 1200

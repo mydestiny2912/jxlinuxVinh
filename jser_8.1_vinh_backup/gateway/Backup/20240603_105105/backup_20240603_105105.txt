@@ -1,0 +1,3 @@
+Account	RoleName	Faction	Level	Money	TranLifeCount	WllsHonor	Energy	PetName	PetLevel	ChanNguyenCount	DocMach	NhamMach	XungMach	DoiMach	AmDuyMach	DuongDuyMach	AmKhieuMach	DuongKhieuMach
+thanh1	BÐQu¸§éc	WuDu	46	362979	0	0	0		0	0	0	0	0	0	0	0	0	0
+==Output Finish==

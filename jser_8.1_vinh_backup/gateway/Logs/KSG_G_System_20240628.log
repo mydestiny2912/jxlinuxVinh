@@ -1,0 +1,38 @@
+2024-06-28 01:16:09	Node[0] connect: Ip(127.0.0.1 : 53032), Identity(0)
+2024-06-28 01:16:09	ClientConnectCreate:[0]127.0.0.1 : 53032
+2024-06-28 01:16:09	Bishop claim from Node[0]!
+2024-06-28 01:16:41	Node[1] connect: Ip(127.0.0.1 : 56357), Identity(1)
+2024-06-28 01:16:41	ClientConnectCreate:[1]127.0.0.1 : 56357
+2024-06-28 01:23:49	GetRoleInfo(Abcdef) OK: Enter Node[0](127.0.0.1 : 53032)
+2024-06-28 01:23:49	GetRoleData(Abcdef) OK: datalen(1367)
+2024-06-28 01:23:49	EnterGame(Abcdef) OK: Move from Node[0] to Node[1]
+2024-06-28 01:24:02	QuitSave[Abcdef] OK: Leave Node[1]
+2024-06-28 01:24:02	SaveRoleData(Abcdef) OK: datalen(1907)
+2024-06-28 01:24:47	CreateRoleData(TheQueen) OK: Account(hqtest001), datalen(683)
+2024-06-28 01:24:47	EnterGame(TheQueen) OK: Move from Node[0] to Node[1]
+2024-06-28 01:26:51	SaveRoleData(TheQueen) OK: datalen(2806)
+2024-06-28 01:29:51	QuitSave[TheQueen] OK: Leave Node[1]
+2024-06-28 01:29:51	SaveRoleData(TheQueen) OK: datalen(3906)
+2024-06-28 01:29:56	GetRoleInfo(TheQueen) OK: Enter Node[0](127.0.0.1 : 53032)
+2024-06-28 01:29:56	GetRoleData(TheQueen) OK: datalen(3906)
+2024-06-28 01:29:56	EnterGame(TheQueen) OK: Move from Node[0] to Node[1]
+2024-06-28 01:40:03	SaveRoleData(TheQueen) OK: datalen(6814)
+2024-06-28 01:43:37	QuitSave[TheQueen] OK: Leave Node[1]
+2024-06-28 01:43:37	SaveRoleData(TheQueen) OK: datalen(6706)
+2024-06-28 01:43:42	GetRoleInfo(TheQueen) OK: Enter Node[0](127.0.0.1 : 53032)
+2024-06-28 01:43:42	GetRoleData(TheQueen) OK: datalen(6706)
+2024-06-28 01:43:42	EnterGame(TheQueen) OK: Move from Node[0] to Node[1]
+2024-06-28 01:45:54	QuitSave[TheQueen] OK: Leave Node[1]
+2024-06-28 01:45:54	SaveRoleData(TheQueen) OK: datalen(6822)
+2024-06-28 01:47:10	GetRoleInfo(TheQueen) OK: Enter Node[0](127.0.0.1 : 53032)
+2024-06-28 01:47:10	GetRoleData(TheQueen) OK: datalen(6822)
+2024-06-28 01:47:10	EnterGame(TheQueen) OK: Move from Node[0] to Node[1]
+2024-06-28 01:54:36	SaveRoleData(TheQueen) OK: datalen(6190)
+2024-06-28 01:58:20	QuitSave[TheQueen] OK: Leave Node[1]
+2024-06-28 01:58:20	SaveRoleData(TheQueen) OK: datalen(5774)
+2024-06-28 01:58:55	Node[1] disconnect: Ip(127.0.0.1 : 56357), Identity(1)
+2024-06-28 01:58:55	ClientConnectClose:[1]
+
+2024-06-28 01:58:56	Node[0] disconnect: Ip(127.0.0.1 : 53032), Identity(0)
+2024-06-28 01:58:56	ClientConnectClose:[0]
+

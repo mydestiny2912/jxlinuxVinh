@@ -1,0 +1,26 @@
+2024-06-28 01:23:49	Add hqtest001(Abcdef)
+2024-06-28 01:23:49	hqtest001(Abcdef) sync data from bishop
+2024-06-28 01:23:49	hqtest001(Abcdef) login
+2024-06-28 01:24:02	hqtest001(Abcdef) logout
+2024-06-28 01:24:02	Del hqtest001(Abcdef): quit
+2024-06-28 01:24:47	Add hqtest001(TheQueen)
+2024-06-28 01:24:47	hqtest001(TheQueen) sync data from bishop
+2024-06-28 01:24:47	hqtest001(TheQueen) login
+2024-06-28 01:29:51	[ShutdownClient]	Kick Out, ReasonId (7) 2024-06-28 01:29:51	hqtest001(TheQueen) logout
+2024-06-28 01:29:51	Del hqtest001(TheQueen): quit
+2024-06-28 01:29:56	Add hqtest001(TheQueen)
+2024-06-28 01:29:56	hqtest001(TheQueen) sync data from bishop
+2024-06-28 01:29:56	hqtest001(TheQueen) login
+2024-06-28 01:43:37	hqtest001(TheQueen) logout
+2024-06-28 01:43:37	Del hqtest001(TheQueen): quit
+2024-06-28 01:43:42	Add hqtest001(TheQueen)
+2024-06-28 01:43:42	hqtest001(TheQueen) sync data from bishop
+2024-06-28 01:43:42	hqtest001(TheQueen) login
+2024-06-28 01:45:54	hqtest001(TheQueen) logout
+2024-06-28 01:45:54	Del hqtest001(TheQueen): quit
+2024-06-28 01:47:10	Add hqtest001(TheQueen)
+2024-06-28 01:47:10	hqtest001(TheQueen) sync data from bishop
+2024-06-28 01:47:10	hqtest001(TheQueen) login
+2024-06-28 01:58:20	[ShutdownClient]	Close connection[1] for request.
+2024-06-28 01:58:20	hqtest001(TheQueen) logout
+2024-06-28 01:58:20	Del hqtest001(TheQueen): quit

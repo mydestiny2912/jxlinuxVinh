@@ -1,0 +1,120 @@
+[2024/05/21 05:24:49] Delete event data: ShareKey(EVENT_cailuhongbao), Param1(-1), Param2(-1), Timeout(2010-3-30)
+[2024/05/21 05:24:49] Delete event data: ShareKey(EVENT_MIDAUT_2010), Param1(-1), Param2(-1), Timeout(2010-10-19)
+[2024/05/21 05:24:49] Delete event data: ShareKey(EVENT_dayanqunxia), Param1(-1), Param2(-1), Timeout(2011-3-20)
+[2024/05/21 05:24:49] Delete event data: ShareKey(FUNC_RANK_EQUIPVALUE), Param1(-1), Param2(-1), Timeout()
+[2024/05/21 05:24:49] Delete event data: ShareKey(EVENT_April_zhushuai), Param1(-1), Param2(-1), Timeout(2012-6-4)
+[2024/05/21 05:24:49] Delete event data: ShareKey(EVENT_2012ChristmasDay), Param1(-1), Param2(-1), Timeout(2013-1-30)
+[2024/05/21 05:24:49] Loading All Scripts....................
+[2024/05/21 05:24:49] Load Rank FUNC_RANK_EQUIPVALUE
+[2024/05/21 05:24:49] Load Stable Rank count 0
+[2024/05/21 05:24:49] Load Dynamic Rank count 0
+[2024/05/21 05:24:49] Load Rank FUNC_RANK_EQUIPVALUE end
+[2024/05/21 05:24:49] 
+All Scripts Have Been Loaded! Count = 88
+[2024/05/21 05:24:49] root client[:0] create
+[2024/05/21 05:24:51] start autotimer for Ping: 
+[2024/05/21 05:24:51] TRIP_MODE: None
+[2024/05/21 05:24:51] Loading World Setting...
+[2024/05/21 05:24:51] Reset map phã b¶n thµnh c«ng
+[2024/05/21 05:24:51] Load LeagueData: LeagueType: 4, Leagues: 7, Roles: 7
+[2024/05/21 05:24:51] Load LeagueData: LeagueType: 500, Leagues: 8, Roles: 8
+[2024/05/21 05:24:51] Load LeagueData: LeagueType: 502, Leagues: 11, Roles: 11
+[2024/05/21 05:24:51] Load LeagueData: LeagueType: 10000, Leagues: 1, Roles: 0
+[2024/05/21 05:24:51] gateway client create: 127.0.0.1
+[2024/05/21 05:24:51] Khëi ®éng hÖ thèng ®ãng më c¸c chøc n¨ng trong trß ch¬i...
+[2024/05/21 05:24:51] topten server sort list
+[2024/05/21 05:24:51] topten server sort list
+[2024/05/21 05:24:51] topten server sort list
+[2024/05/21 05:24:51] =================GLOBALEXCUTECHAT=================
+[2024/05/21 05:24:51] BATTLE[XiangYang] 9:30 startup...
+[2024/05/21 05:24:51] BATTLE[XiangYang] 11:00 startup...
+[2024/05/21 05:24:51] BATTLE[XiangYang] 13:00 startup...
+[2024/05/21 05:24:51] BATTLE[XiangYang] 15:00 startup...
+[2024/05/21 05:24:51] BATTLE[XiangYang] 17:00 startup...
+[2024/05/21 05:24:51] BATTLE[XiangYang] 19:00 startup...
+[2024/05/21 05:24:51] BATTLE[XiangYang] 21:00 startup...
+[2024/05/21 05:24:51] BATTLE[XiangYang] 23:00 startup...
+[2024/05/21 05:24:51] Ladder startup...
+[2024/05/21 05:24:51] MAKE GOLDBOSS AT CITY OR OUTTER  :  19:30
+[2024/05/21 05:24:51] MAKE GOLDBOSS AT CITY OR OUTTER  :  12:00
+[2024/05/21 05:24:51] #NAME?
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database52301
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51302
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51102
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135403
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135604
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135705
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135206
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135807
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database136008
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135109
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database52301
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51302
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51102
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135403
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135604
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135705
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135206
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135807
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database136008
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135109
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database52301
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51302
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51102
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135403
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135604
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135705
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135206
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135807
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database136008
+[2024/05/21 05:24:51] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135109
+[2024/05/21 05:24:51] **************** Tæng ®iÒu ®éng quèc chiÕn tèng kim nhiÖm vô khëi ®éng thµnh c«ng ****************
+[2024/05/21 05:24:51] =================´³¹Ø»î¶¯Ã¿ÈÕÅÅÐÐ°ñ==================
+[2024/05/21 05:24:51] =================Phong l¨ng ®é==================
+[2024/05/21 05:24:51] =================Phong l¨ng ®é==================
+[2024/05/21 05:24:51] =================Phong l¨ng ®é==================
+[2024/05/21 05:24:51] =================Phong l¨ng ®é==================
+[2024/05/21 05:24:51] =================Phong l¨ng ®é==================
+[2024/05/21 05:24:51] =================Phong l¨ng ®é==================
+[2024/05/21 05:24:51] =================Phong l¨ng ®é==================
+[2024/05/21 05:24:51] =================Phong l¨ng ®é==================
+[2024/05/21 05:24:51] =================Phong l¨ng ®é==================
+[2024/05/21 05:24:51] =================Phong l¨ng ®é==================
+[2024/05/21 05:24:51] =================Phong l¨ng ®é==================
+[2024/05/21 05:24:51] =================Phong l¨ng ®é==================
+[2024/05/21 05:24:51] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/05/21 05:24:51] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/05/21 05:24:51] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/05/21 05:24:51] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/05/21 05:24:51] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/05/21 05:24:51] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/05/21 05:24:51] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/05/21 05:24:51] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/05/21 05:24:51] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/05/21 05:24:51] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/05/21 05:24:51] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/05/21 05:24:51] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/05/21 05:24:51] Failed to init statdatamanager!
+[2024/05/21 05:24:51] [SGN]Failed to initialize.
+[2024/05/21 05:24:51] S3Relay-Æô¶¯Íê±Ï£¡ S3Relay- Khoi dong hoan tat! 
+[2024/05/21 05:24:51] 
+*
+***** S3Relay Start (@ 167974328/00/43200 00:-1459256:135874861.136293495) >>>>>
+*
+
+
+[2024/05/21 05:24:51] SockThread start success
+[2024/05/21 05:24:51] Game Module Is Started. -->Ho¹t ®éng xu©n 2006
+[2024/05/21 05:24:51] Game Module Is Started. -->OpenShop
+[2024/05/21 05:24:51] Game Module Is Started. -->ThiÖp th«ng b¸o chóc mõng mµu
+[2024/05/21 05:24:51] Game Module Is Started. -->ThiÖp cuén
+[2024/05/21 05:24:51] Game Module Is Started. -->Phóc duyªn ph¸o hoa
+[2024/05/21 05:24:51] Game Module Is Started. -->TruyÒn c«ng
+[2024/05/21 05:24:51] Game Module Is Started. -->LÔ vËt t×nh nh©n
+[2024/05/21 05:24:51] Game Module Is Started. -->YANDIBAOZANG
+[2024/05/21 05:24:51] Game Module Is Started. -->YANDIBAOZANG_TALK
+[2024/05/21 05:24:51] Game Module Is Started. -->SWITH_DAIYITOUSHI
+[2024/05/21 05:24:51] Game Module Is Started. -->chunjie2009_dangboss
+[2024/05/21 05:24:51] SDBLadder Loaded
+[2024/05/21 05:25:20] ChatConnection create: 127.0.0.1
+[2024/05/21 05:25:

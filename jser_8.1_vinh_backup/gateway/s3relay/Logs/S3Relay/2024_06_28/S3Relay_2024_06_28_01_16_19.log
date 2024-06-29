@@ -1,0 +1,1 @@
+20240628-011619<DEBUG:0xec959600>: KGLOG_PROCESS_ERROR(bRetCode) at line 48 in BOOL KStatDataManager::Init()

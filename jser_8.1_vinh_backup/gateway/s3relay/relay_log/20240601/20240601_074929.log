@@ -1,0 +1,197 @@
+[2024/06/01 07:49:29] Delete event data: ShareKey(EVENT_cailuhongbao), Param1(-1), Param2(-1), Timeout(2010-3-30)
+[2024/06/01 07:49:29] Delete event data: ShareKey(EVENT_MIDAUT_2010), Param1(-1), Param2(-1), Timeout(2010-10-19)
+[2024/06/01 07:49:29] Delete event data: ShareKey(EVENT_dayanqunxia), Param1(-1), Param2(-1), Timeout(2011-3-20)
+[2024/06/01 07:49:29] Delete event data: ShareKey(FUNC_RANK_EQUIPVALUE), Param1(-1), Param2(-1), Timeout()
+[2024/06/01 07:49:29] Delete event data: ShareKey(EVENT_April_zhushuai), Param1(-1), Param2(-1), Timeout(2012-6-4)
+[2024/06/01 07:49:29] Delete event data: ShareKey(EVENT_2012ChristmasDay), Param1(-1), Param2(-1), Timeout(2013-1-30)
+[2024/06/01 07:49:29] Loading All Scripts....................
+[2024/06/01 07:49:29] Load Rank FUNC_RANK_EQUIPVALUE
+[2024/06/01 07:49:29] Load Stable Rank count 0
+[2024/06/01 07:49:29] Load Dynamic Rank count 0
+[2024/06/01 07:49:29] Load Rank FUNC_RANK_EQUIPVALUE end
+[2024/06/01 07:49:29] 
+All Scripts Have Been Loaded! Count = 88
+[2024/06/01 07:49:29] root client[:0] create
+[2024/06/01 07:49:31] start autotimer for Ping: 
+[2024/06/01 07:49:31] gateway client create: 127.0.0.1
+[2024/06/01 07:49:31] TRIP_MODE: None
+[2024/06/01 07:49:31] Loading World Setting...
+[2024/06/01 07:49:31] Reset map phã b¶n thµnh c«ng
+[2024/06/01 07:49:31] Load LeagueData: LeagueType: 4, Leagues: 7, Roles: 7
+[2024/06/01 07:49:31] Load LeagueData: LeagueType: 500, Leagues: 8, Roles: 8
+[2024/06/01 07:49:31] Load LeagueData: LeagueType: 502, Leagues: 11, Roles: 11
+[2024/06/01 07:49:31] Load LeagueData: LeagueType: 10000, Leagues: 1, Roles: 0
+[2024/06/01 07:49:31] Khëi ®éng hÖ thèng ®ãng më c¸c chøc n¨ng trong trß ch¬i...
+[2024/06/01 07:49:31] topten server sort list
+[2024/06/01 07:49:31] topten server sort list
+[2024/06/01 07:49:31] topten server sort list
+[2024/06/01 07:49:31] =================GLOBALEXCUTECHAT=================
+[2024/06/01 07:49:31] BATTLE[XiangYang] 9:30 startup...
+[2024/06/01 07:49:31] BATTLE[XiangYang] 11:00 startup...
+[2024/06/01 07:49:31] BATTLE[XiangYang] 13:00 startup...
+[2024/06/01 07:49:31] BATTLE[XiangYang] 15:00 startup...
+[2024/06/01 07:49:31] BATTLE[XiangYang] 17:00 startup...
+[2024/06/01 07:49:31] BATTLE[XiangYang] 19:00 startup...
+[2024/06/01 07:49:31] BATTLE[XiangYang] 21:00 startup...
+[2024/06/01 07:49:31] BATTLE[XiangYang] 23:00 startup...
+[2024/06/01 07:49:31] Ladder startup...
+[2024/06/01 07:49:31] MAKE GOLDBOSS AT CITY OR OUTTER  :  19:30
+[2024/06/01 07:49:31] MAKE GOLDBOSS AT CITY OR OUTTER  :  12:00
+[2024/06/01 07:49:31] #NAME?
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database52301
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51302
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51102
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135403
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135604
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135705
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135206
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135807
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database136008
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135109
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database52301
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51302
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51102
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135403
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135604
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135705
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135206
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135807
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database136008
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135109
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database52301
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51302
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51102
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135403
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135604
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135705
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135206
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135807
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database136008
+[2024/06/01 07:49:31] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135109
+[2024/06/01 07:49:31] **************** Tæng ®iÒu ®éng quèc chiÕn tèng kim nhiÖm vô khëi ®éng thµnh c«ng ****************
+[2024/06/01 07:49:31] =================´³¹Ø»î¶¯Ã¿ÈÕÅÅÐÐ°ñ==================
+[2024/06/01 07:49:31] =================Phong l¨ng ®é==================
+[2024/06/01 07:49:31] =================Phong l¨ng ®é==================
+[2024/06/01 07:49:31] =================Phong l¨ng ®é==================
+[2024/06/01 07:49:31] =================Phong l¨ng ®é==================
+[2024/06/01 07:49:31] =================Phong l¨ng ®é==================
+[2024/06/01 07:49:31] =================Phong l¨ng ®é==================
+[2024/06/01 07:49:31] =================Phong l¨ng ®é==================
+[2024/06/01 07:49:31] =================Phong l¨ng ®é==================
+[2024/06/01 07:49:31] =================Phong l¨ng ®é==================
+[2024/06/01 07:49:31] =================Phong l¨ng ®é==================
+[2024/06/01 07:49:31] =================Phong l¨ng ®é==================
+[2024/06/01 07:49:31] =================Phong l¨ng ®é==================
+[2024/06/01 07:49:31] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/06/01 07:49:31] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/06/01 07:49:31] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/06/01 07:49:31] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/06/01 07:49:31] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/06/01 07:49:31] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/06/01 07:49:31] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/06/01 07:49:31] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/06/01 07:49:31] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/06/01 07:49:31] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/06/01 07:49:31] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/06/01 07:49:31] Nhiem vu khieu chien thoi gian (Vuot ai) - vao cac gio le trong ngay
+[2024/06/01 07:49:31] Failed to init statdatamanager!
+[2024/06/01 07:49:31] [SGN]Failed to initialize.
+[2024/06/01 07:49:31] S3Relay-Æô¶¯Íê±Ï£¡ S3Relay- Khoi dong hoan tat! 
+[2024/06/01 07:49:31] 
+*
+***** S3Relay Start (@ 147875256/00/43200 00:-3547160:135874861.136293495) >>>>>
+*
+
+
+[2024/06/01 07:49:31] SockThread start success
+[2024/06/01 07:49:31] Game Module Is Started. -->Ho¹t ®éng xu©n 2006
+[2024/06/01 07:49:31] Game Module Is Started. -->OpenShop
+[2024/06/01 07:49:31] Game Module Is Started. -->ThiÖp th«ng b¸o chóc mõng mµu
+[2024/06/01 07:49:31] Game Module Is Started. -->ThiÖp cuén
+[2024/06/01 07:49:31] Game Module Is Started. -->Phóc duyªn ph¸o hoa
+[2024/06/01 07:49:31] Game Module Is Started. -->TruyÒn c«ng
+[2024/06/01 07:49:31] Game Module Is Started. -->LÔ vËt t×nh nh©n
+[2024/06/01 07:49:31] Game Module Is Started. -->YANDIBAOZANG
+[2024/06/01 07:49:31] Game Module Is Started. -->YANDIBAOZANG_TALK
+[2024/06/01 07:49:31] Game Module Is Started. -->SWITH_DAIYITOUSHI
+[2024/06/01 07:49:31] Game Module Is Started. -->chunjie2009_dangboss
+[2024/06/01 07:49:31] SDBLadder Loaded
+[2024/06/01 07:49:43] ChatConnection create: 127.0.0.1
+[2024/06/01 07:49:43] TongConnection create: 127.0.0.1
+[2024/06/01 07:49:43] HostConnection create: 127.0.0.1
+[2024/06/01 07:50:12] TongDataSendFinish: 127.0.0.1
+[2024/06/01 07:50:12] GameServerLogin: 127.0.0.1
+[2024/06/01 07:50:16] Assign Dynamic map(986,65536) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:1
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(986,65537) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:2
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(986,65538) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:3
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(986,65539) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:4
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(986,65540) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:5
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(948,70201) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:6
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(948,70202) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:7
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(948,70203) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:8
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(948,70204) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:9
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(948,70205) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:10
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(975,65541) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:11
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(975,65542) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:12
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(975,65543) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:13
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(975,65544) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:14
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(975,65545) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:15
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(988,65546) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:16
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(988,65547) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:17
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(988,65548) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:18
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(988,65549) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:19
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(988,65550) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:20
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(976,65551) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:21
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(976,65552) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:22
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(976,65553) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:23
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(976,65554) for GS:0
+[2024/06/01 07:50:16] GS:0 Total Dynamic map:24
+[2024/06/01 07:50:16] GS:0 Total Static map:699
+[2024/06/01 07:50:16] Assign Dynamic map(976,65555) for GS:0
+[2024/

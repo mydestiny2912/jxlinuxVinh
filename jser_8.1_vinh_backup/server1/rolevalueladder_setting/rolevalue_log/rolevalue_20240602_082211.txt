@@ -1,0 +1,7 @@
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 50
+[Normal]Item: Kim Phong Thanh D­¬ng Kh«i(0,1,176,4,2,5), unbind = 0, bind = 50
+[Normal]Item: Kim Phong C«ng CÈn Tam Th¸n(0,1,179,0,2,5), unbind = 0, bind = 50
+[Normal]Item: Kim Phong Kú L©n HuyÕt(0,1,177,18,0,5), unbind = 0, bind = 50
+[Normal]Item: Kim Phong Kú L©n HuyÕt(0,1,177,18,0,5), unbind = 0, bind = 50
+[Normal]Item: Kim Phong Tr¹c Liªn Quang(0,1,178,1,1,5), unbind = 0, bind = 50
+[Normal]Item: Kim Phong Thiªn Lý Th¶o Th­îng Phi(0,1,183,1,4,5), unbind = 0, bind = 50

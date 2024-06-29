@@ -1,0 +1,61 @@
+[2024/05/20 08:24:25] Delete event data: ShareKey(EVENT_cailuhongbao), Param1(-1), Param2(-1), Timeout(2010-3-30)
+[2024/05/20 08:24:25] Delete event data: ShareKey(EVENT_MIDAUT_2010), Param1(-1), Param2(-1), Timeout(2010-10-19)
+[2024/05/20 08:24:25] Delete event data: ShareKey(EVENT_dayanqunxia), Param1(-1), Param2(-1), Timeout(2011-3-20)
+[2024/05/20 08:24:25] Delete event data: ShareKey(FUNC_RANK_EQUIPVALUE), Param1(-1), Param2(-1), Timeout()
+[2024/05/20 08:24:25] Delete event data: ShareKey(EVENT_April_zhushuai), Param1(-1), Param2(-1), Timeout(2012-6-4)
+[2024/05/20 08:24:25] Delete event data: ShareKey(EVENT_2012ChristmasDay), Param1(-1), Param2(-1), Timeout(2013-1-30)
+[2024/05/20 08:24:25] Loading All Scripts....................
+[2024/05/20 08:24:25] Load Rank FUNC_RANK_EQUIPVALUE
+[2024/05/20 08:24:25] Load Stable Rank count 0
+[2024/05/20 08:24:25] Load Dynamic Rank count 0
+[2024/05/20 08:24:25] Load Rank FUNC_RANK_EQUIPVALUE end
+[2024/05/20 08:24:26] 
+All Scripts Have Been Loaded! Count = 88
+[2024/05/20 08:24:26] root client[:0] create
+[2024/05/20 08:24:25] start autotimer for Ping: 
+[2024/05/20 08:24:25] TRIP_MODE: None
+[2024/05/20 08:24:25] Loading World Setting...
+[2024/05/20 08:24:25] Reset map phã b¶n thµnh c«ng
+[2024/05/20 08:24:25] gateway client create: 127.0.0.1
+[2024/05/20 08:24:25] Load LeagueData: LeagueType: 4, Leagues: 7, Roles: 7
+[2024/05/20 08:24:25] Load LeagueData: LeagueType: 500, Leagues: 8, Roles: 8
+[2024/05/20 08:24:25] Load LeagueData: LeagueType: 502, Leagues: 11, Roles: 11
+[2024/05/20 08:24:25] Load LeagueData: LeagueType: 10000, Leagues: 1, Roles: 0
+[2024/05/20 08:24:25] Khëi ®éng hÖ thèng ®ãng më c¸c chøc n¨ng trong trß ch¬i...
+[2024/05/20 08:24:25] topten server sort list
+[2024/05/20 08:24:25] topten server sort list
+[2024/05/20 08:24:25] topten server sort list
+[2024/05/20 08:24:25] =================GLOBALEXCUTECHAT=================
+[2024/05/20 08:24:25] BATTLE[XiangYang] 9:30 startup...
+[2024/05/20 08:24:25] BATTLE[XiangYang] 11:00 startup...
+[2024/05/20 08:24:25] BATTLE[XiangYang] 13:00 startup...
+[2024/05/20 08:24:25] BATTLE[XiangYang] 15:00 startup...
+[2024/05/20 08:24:25] BATTLE[XiangYang] 17:00 startup...
+[2024/05/20 08:24:25] BATTLE[XiangYang] 19:00 startup...
+[2024/05/20 08:24:25] BATTLE[XiangYang] 21:00 startup...
+[2024/05/20 08:24:25] BATTLE[XiangYang] 23:00 startup...
+[2024/05/20 08:24:25] Ladder startup...
+[2024/05/20 08:24:25] MAKE GOLDBOSS AT CITY OR OUTTER  :  19:30
+[2024/05/20 08:24:25] MAKE GOLDBOSS AT CITY OR OUTTER  :  12:00
+[2024/05/20 08:24:25] #NAME?
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database52301
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51302
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51102
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135403
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135604
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135705
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135206
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135807
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database136008
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135109
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database52301
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51302
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database51102
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135403
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135604
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135705
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135206
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135807
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database136008
+[2024/05/20 08:24:25] Xãa d÷ liÖu qu¸i vËt Hoµng kim trong database135109
+[2024/05/20 

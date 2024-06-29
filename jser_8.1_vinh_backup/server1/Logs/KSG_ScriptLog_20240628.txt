@@ -1,0 +1,73 @@
+2024-06-28 01:16:33	[1970-01-01 08:00:00] Register [ThÝ LuyÖn §­êng] dungeon, templet mapid is [925].
+2024-06-28 01:16:35	[UseItemSucc]	1970-01-01 08:00	Account:ScriptAutoTest	Name:testname	ItemName:testItem.
+2024-06-28 01:18:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:18:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:20:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:20:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:22:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:22:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:23:50	hqtest001	Abcdef	npctest	5	0	award	LB	AddItemEx(4,1354706023,0,6,1,15000,1,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:23:50	hqtest001	Abcdef	npctest	5	0	award	LB	AddItemEx(4,-549722264,0,6,1,15001,1,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:23:50	hqtest001	Abcdef	npctest	5	0	award	LB	AddItemEx(4,-969409139,0,6,1,15002,1,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:23:50	hqtest001	Abcdef	npctest	5	0	award	LB	AddItemEx(4,-302818330,0,6,1,15003,1,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:23:50	hqtest001	Abcdef	npctest	5	0	award	LB		1		53
+2024-06-28 01:23:50	hqtest001	Abcdef	npctest	5	0	award		AddItemEx(4,-1500564029,0,6,1,5122,1,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:24:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:24:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:24:48	hqtest001	TheQueen	npctest	1	0	award	Phï	AddItemEx(4,1942612177,0,6,1,1266,1,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:24:48	hqtest001	TheQueen	npctest	1	0	award	Phï	AddItemEx(4,-1865197382,0,6,1,438,1,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:24:48	hqtest001	TheQueen	npctest	1	0	award	LB	AddItemEx(4,1354706023,0,6,1,15000,1,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:24:48	hqtest001	TheQueen	npctest	1	0	award	LB	AddItemEx(4,-549722264,0,6,1,15001,1,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:24:48	hqtest001	TheQueen	npctest	1	0	award	LB	AddItemEx(4,-969409139,0,6,1,15002,1,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:24:48	hqtest001	TheQueen	npctest	1	0	award	LB	AddItemEx(4,-302818330,0,6,1,15003,1,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:24:48	hqtest001	TheQueen	npctest	1	0	award	LB		1		53
+2024-06-28 01:24:48	hqtest001	TheQueen	npctest	1	0	award		AddItemEx(4,-1500564029,0,6,1,5122,1,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:24:51	clean TheQueen(Level:1) Tong Contribution old value is 0 new value is 0
+2024-06-28 01:26:25	hqtest001	TheQueen	hongying baoxiang	60	0	award	[Hoµn Mü] Hång ¶nh TrÇm Viªn V·n Tóy	AddItemEx(4,-1096254609,1,0,535,1,10,1,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:26:25	hqtest001	TheQueen	hongying baoxiang	60	0	award	[Hoµn Mü] Hång ¶nh KiÕm Qua T©y Ph­¬ng	AddItemEx(4,258262808,1,0,536,0,10,2,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:26:25	hqtest001	TheQueen	hongying baoxiang	60	0	award	[Hoµn Mü] Hång ¶nh Môc Tóc T­¬ng Vong	AddItemEx(4,100433317,1,0,537,0,10,4,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:26:25	hqtest001	TheQueen	hongying baoxiang	60	0	award	[Hoµn Mü] Hång ¶nh Hång Tô Chiªu	AddItemEx(4,-1534211162,1,0,538,1,10,3,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:26:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:26:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:27:04	hqtest001	TheQueen	Håi thiªn t¸i t¹o lÔ bao	60	0	award	Håi Thiªn T¸i T¹o §¬n	AddItemEx(4,-2114950961,0,1,8,0,4,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:27:07	hqtest001	TheQueen	Më ra vËt phÈm mua ë Kú Tr©n C¸c	60	0	award	ChiÕu D¹ Ngäc S­ Tö 	AddItemEx(4,-302757478,0,0,10,5,10,0,0,0,0,0,0,0,0,0)	1		53
+2024-06-28 01:28:27	01:28	28/06/2024	1ClickVMFull	hqtest001	TheQueen	Ch­a nhËp ph¸i	60		TinhNangKey	NhanNhiemVuDaTau
+2024-06-28 01:28:39	01:28	28/06/2024	1ClickVMFull	hqtest001	TheQueen	Ch­a nhËp ph¸i	60		Player Get HuoYueDu, szKey:yesourenwu, nValue:1
+2024-06-28 01:28:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:28:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:29:51	KickOutSelf Account:hqtest001  RoleName TheQueen
+2024-06-28 01:29:56	hqtest001	TheQueen	npctest	60	0	award	LB		1		53
+2024-06-28 01:30:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:30:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:32:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:32:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:34:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:34:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:36:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:36:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:37:51	hqtest001	TheQueen	Håi thiªn t¸i t¹o lÔ bao	81	0	award	Håi Thiªn T¸i T¹o §¬n	AddItemEx(4,-970707521,0,1,8,0,4,0,0,0,0,0,0,0,0,0)	11		181
+2024-06-28 01:38:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:38:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:40:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:40:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:42:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:42:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:43:42	hqtest001	TheQueen	npctest	81	0	award	LB		1		144
+2024-06-28 01:44:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:44:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:46:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:46:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:47:10	hqtest001	TheQueen	npctest	81	0	award	LB		1		53
+2024-06-28 01:48:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:48:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:50:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:50:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:52:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:52:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:54:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:54:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:56:32	hqtest001	TheQueen	Håi thiªn t¸i t¹o lÔ bao	81	0	award	Håi Thiªn T¸i T¹o §¬n	AddItemEx(4,804688167,0,1,8,0,4,0,0,0,0,0,0,0,0,0)	11		341
+2024-06-28 01:56:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:56:41	Bau cua lan nay tong tien don dat 0 thua 0
+2024-06-28 01:58:41	Bau cua lan nay tong tien van dat 0 thua 0
+2024-06-28 01:58:41	Bau cua lan nay tong tien don dat 0 thua 0

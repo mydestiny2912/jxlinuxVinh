@@ -1,0 +1,17 @@
+[2024/06/03 11:39:28] Delete event data: ShareKey(EVENT_cailuhongbao), Param1(-1), Param2(-1), Timeout(2010-3-30)
+[2024/06/03 11:39:28] Delete event data: ShareKey(EVENT_MIDAUT_2010), Param1(-1), Param2(-1), Timeout(2010-10-19)
+[2024/06/03 11:39:28] Delete event data: ShareKey(EVENT_dayanqunxia), Param1(-1), Param2(-1), Timeout(2011-3-20)
+[2024/06/03 11:39:28] Delete event data: ShareKey(FUNC_RANK_EQUIPVALUE), Param1(-1), Param2(-1), Timeout()
+[2024/06/03 11:39:28] Delete event data: ShareKey(EVENT_April_zhushuai), Param1(-1), Param2(-1), Timeout(2012-6-4)
+[2024/06/03 11:39:28] Delete event data: ShareKey(EVENT_2012ChristmasDay), Param1(-1), Param2(-1), Timeout(2013-1-30)
+[2024/06/03 11:39:28] Loading All Scripts....................
+[2024/06/03 11:39:28] Load Rank FUNC_RANK_EQUIPVALUE
+[2024/06/03 11:39:28] Load Stable Rank count 0
+[2024/06/03 11:39:28] Load Dynamic Rank count 0
+[2024/06/03 11:39:28] Load Rank FUNC_RANK_EQUIPVALUE end
+[2024/06/03 11:39:28] 
+All Scripts Have Been Loaded! Count = 88
+[2024/06/03 11:39:28] root client[:0] create
+[2024/06/03 11:39:30] start autotimer for Ping: 
+[2024/06/03 11:39:30] Failed to startup BishopClient(127.0.0.1:5632), BufferSize(1048576)
+[2024/06/03 11:39:30] FAIL: ÓëÍø¹Ø½¨Á¢Á¬½Ó³ö´í -  lËp tÇn sè qu¶n lý trªn m¹ng bÞ sai - 

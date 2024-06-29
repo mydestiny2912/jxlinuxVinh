@@ -1,0 +1,551 @@
+[2022-12-22 08:47:43]Backup begin
+[2022-12-22 08:47:43]Load name filters[1005]
+==Output Finish==
+Backup DataBase Finish..
+
+===========================================================
+==DataStatistics==
+TotalRole: 17
+ShaoLinRole: 4
+TianWangRole: 0
+TangMenRole: 1
+WuDuRole: 0
+EMeiRole: 0
+CuiYanRole: 0
+GaiBangRole: 0
+TianRenRole: 0
+WuDangRole: 2
+KunLunRole: 1
+BeginRole: 9
+NoFactionRole: 0
+------------------------------------------------
+TotalMoney: 121217308.000000
+ShaoLinMoney: 55431364.000000
+TianWangMoney: 0.000000
+TangMenMoney: 3001241.000000
+WuDuMoney: 0.000000
+EMeiMoney: 0.000000
+CuiYanMoney: 0.000000
+GaiBangMoney: 0.000000
+TianRenMoney: 0.000000
+WuDangMoney: 249400.000000
+KunLunMoney: 35928743.000000
+BeginMoney: 26606560.000000
+NoFactionMoney: 0.000000
+------------------------------------------------
+Distribution of The Role Level[1-200Level]: 
+Level	Total role	Total TranLifeCount[0]	Total TranLifeCount[1]	Total TranLifeCount[2]	Total TranLifeCount[3]	Total TranLifeCount[4]	Total TranLifeCount[5]	Total TranLifeCount[6]	Total TranLifeCount[7]	
+1Level Roles:	1	1								
+10Level Roles:	1							1		
+39Level Roles:	1	1								
+120Level Roles:	3	2			1					
+123Level Roles:	1	1								
+150Level Roles:	5	5								
+160Level Roles:	2		1		1					
+163Level Roles:	1		1							
+200Level Roles:	2				1			1		
+Level ExceptionalRoles: 1, Please Try to Search 'RoleDataError' In RoleListFile
+------------------------------------------------
+Distribution of role's TranLifeCount
+TranLifeCount[0]: 10
+TranLifeCount[1]: 2
+TranLifeCount[3]: 3
+TranLifeCount[6]: 2
+------------------------------------------------
+TotalWllsHonor: 0
+TotalEnergy: 0
+
+===========================================================
+==Role's Statistics==:
+--------------Level--------------
+Oliver	-1	1
+TrungSinh	-2	2
+MinhGiao	-3	3
+KingOfTheWorld	-4	4
+United	-5	5
+FireStorm	-6	6
+meomeo	-7	7
+adssssasaa	-8	8
+adasdasdqwe	-9	9
+ádqeqe	-10	10
+--------------Money--------------
+Oliver	44336278	0
+meomeo	35928743	0
+FireStorm	15802345	0
+KingOfTheWorld	10649401	0
+DrMagic	10218325	0
+adssssasaa	3001241	0
+Adminnnnn	625512	0
+SiªuNh©n	251249	0
+Tr­¬ngV«KÞ	249400	0
+United	149994	0
+--------------Killer--------------
+meomeo	8	0
+FireStorm	2	0
+Oliver	1	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Fortune--------------
+Adminnnnn	8	0
+United	2	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------BossKiller--------------
+FireStorm	6	1
+meomeo	5	2
+	0	3
+	0	4
+	0	5
+	0	6
+	0	7
+	0	8
+	0	9
+	0	10
+--------------LeagueWinner--------------
+	0	1
+	0	2
+	0	3
+	0	4
+	0	5
+	0	6
+	0	7
+	0	8
+	0	9
+	0	10
+--------------Faction NoFaction Level Sort--------------
+TrungSinh	-1	-1
+KingOfTheWorld	-2	-1
+United	-3	-1
+FireStorm	-4	-1
+adasdasdqwe	-5	-1
+ádqeqe	-6	-1
+HéiQu¸nVâL©m	-7	-1
+VâL©mQu¸n	-8	-1
+	-9	-1
+	-10	-1
+--------------Faction NoFaction Money Sort---------------
+FireStorm	15802345	0
+KingOfTheWorld	10649401	0
+United	149994	0
+HéiQu¸nVâL©m	4080	0
+adasdasdqwe	537	0
+ádqeqe	175	0
+VâL©mQu¸n	28	0
+	0	0
+	0	0
+	0	0
+--------------Faction ShaoLin Level Sort--------------
+Oliver	-1	-1
+Adminnnnn	-2	-1
+SiªuNh©n	-3	-1
+DrMagic	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Faction ShaoLin Money Sort---------------
+Oliver	44336278	0
+DrMagic	10218325	0
+Adminnnnn	625512	0
+SiªuNh©n	251249	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Faction TianWang Level Sort--------------
+	-1	-1
+	-2	-1
+	-3	-1
+	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Faction TianWang Money Sort---------------
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Faction TangMen Level Sort--------------
+adssssasaa	-1	-1
+	-2	-1
+	-3	-1
+	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Faction TangMen Money Sort---------------
+adssssasaa	3001241	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Faction WuDu Level Sort--------------
+	-1	-1
+	-2	-1
+	-3	-1
+	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Faction WuDu Money Sort---------------
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Faction EMei Level Sort--------------
+	-1	-1
+	-2	-1
+	-3	-1
+	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Faction EMei Money Sort---------------
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Faction CuiYan Level Sort--------------
+	-1	-1
+	-2	-1
+	-3	-1
+	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Faction CuiYan Money Sort---------------
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Faction GaiBang Level Sort--------------
+	-1	-1
+	-2	-1
+	-3	-1
+	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Faction GaiBang Money Sort---------------
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Faction TianRen Level Sort--------------
+	-1	-1
+	-2	-1
+	-3	-1
+	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Faction TianRen Money Sort---------------
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Faction WuDang Level Sort--------------
+MinhGiao	-1	-1
+Tr­¬ngV«KÞ	-2	-1
+	-3	-1
+	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Faction WuDang Money Sort---------------
+Tr­¬ngV«KÞ	249400	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Faction KunLun Level Sort--------------
+meomeo	-1	-1
+	-2	-1
+	-3	-1
+	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Faction KunLun Money Sort---------------
+meomeo	35928743	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Camp BEGIN Level Sort--------------
+TrungSinh	-1	-1
+United	-2	-1
+	-3	-1
+	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Camp BEGIN Money Sort---------------
+United	149994	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Camp JUSTICE Level Sort--------------
+MinhGiao	-1	-1
+FireStorm	-2	-1
+adasdasdqwe	-3	-1
+ádqeqe	-4	-1
+Adminnnnn	-5	-1
+VâL©mQu¸n	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Camp JUSTICE Money Sort---------------
+FireStorm	15802345	0
+Adminnnnn	625512	0
+adasdasdqwe	537	0
+ádqeqe	175	0
+VâL©mQu¸n	28	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Camp EVIL Level Sort--------------
+	-1	-1
+	-2	-1
+	-3	-1
+	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Camp EVIL Money Sort---------------
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Camp BALANCE Level Sort--------------
+HéiQu¸nVâL©m	-1	-1
+	-2	-1
+	-3	-1
+	-4	-1
+	-5	-1
+	-6	-1
+	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Camp BALANCE Money Sort---------------
+HéiQu¸nVâL©m	4080	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+	0	0
+--------------Camp FREE Level Sort--------------
+Oliver	-1	-1
+KingOfTheWorld	-2	-1
+meomeo	-3	-1
+adssssasaa	-4	-1
+SiªuNh©n	-5	-1
+Tr­¬ngV«KÞ	-6	-1
+DrMagic	-7	-1
+	-8	-1
+	-9	-1
+	-10	-1
+--------------Camp FREE Money Sort---------------
+Oliver	44336278	0
+meomeo	35928743	0
+KingOfTheWorld	10649401	0
+DrMagic	10218325	0
+adssssasaa	3001241	0
+SiªuNh©n	251249	0
+Tr­¬ngV«KÞ	249400	0
+	0	0
+	0	0
+	0	0
+Role Number in Faction
+Sect NoFaction : 9
+Sect ShaoLin : 4
+Sect TianWang : 0
+Sect TangMen : 1
+Sect WuDu : 0
+Sect EMei : 0
+Sect CuiYan : 0
+Sect GaiBang : 0
+Sect TianRen : 0
+Sect WuDang : 2
+Sect KunLun : 1
+
+The Meney Top 1000 Role Rate in Faction
+Sect NoFaction : 7
+Sect ShaoLin : 4
+Sect TianWang : 0
+Sect TangMen : 1
+Sect WuDu : 0
+Sect EMei : 0
+Sect CuiYan : 0
+Sect GaiBang : 0
+Sect TianRen : 0
+Sect WuDang : 1
+Sect KunLun : 1
+
+The Level Top 1000 Role Rate in Faction
+Sect NoFaction : 8
+Sect ShaoLin : 4
+Sect TianWang : 0
+Sect TangMen : 1
+Sect WuDu : 0
+Sect EMei : 0
+Sect CuiYan : 0
+Sect GaiBang : 0
+Sect TianRen : 0
+Sect WuDang : 2
+Sect KunLun : 1
+
+Statistic count: 32
+Statistic[0]: 12
+Statistic[1]: 0
+Statistic[2]: 1099
+Statistic[3]: 0
+Statistic[4]: 0
+Statistic[5]: 0
+Statistic[6]: 0
+Statistic[7]: 0
+Statistic[8]: 0
+Statistic[9]: 0
+Statistic[10]: 0
+Statistic[11]: 0
+Statistic[12]: 0
+Statistic[13]: 0
+Statistic[14]: 0
+Statistic[15]: 0
+Statistic[16]: 0
+Statistic[17]: 0
+Statistic[18]: 0
+Statistic[19]: 0
+Statistic[20]: 0
+Statistic[21]: 0
+Statistic[22]: 0
+Statistic[23]: 0
+Statistic[24]: 0
+Statistic[25]: 0
+Statistic[26]: 0
+Statistic[27]: 0
+Statistic[28]: 0
+Statistic[29]: 0
+Statistic[30]: 0
+Statistic[31]: 0
+
+[2022-12-22 08:47:46]Backup end

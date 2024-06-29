@@ -1,0 +1,16 @@
+[Normal]Item: Tô TiÔn(0,0,1,2,0,1), unbind = 0, bind = 0
+[Normal]Item: ThiÕt Trñy thñ (0,0,0,0,2,1), unbind = 0, bind = 0
+[Normal]Item: To¸n §Çu chïy(0,0,0,4,4,1), unbind = 0, bind = 0
+[Normal]Item: Yªu §ao(0,0,0,1,0,1), unbind = 0, bind = 0
+[Normal]Item: Kim TiÒn tiªu(0,0,1,0,3,1), unbind = 0, bind = 0
+[Normal]Item: §¬n §ao(0,0,0,1,2,2), unbind = 0, bind = 0
+[Normal]Item: Kim TiÒn tiªu(0,0,1,0,3,1), unbind = 0, bind = 0
+[Normal]Item: ThiÕt Trñy thñ (0,0,0,0,2,1), unbind = 0, bind = 0
+[Normal]Item: ThiÕt Trñy thñ (0,0,0,0,2,1), unbind = 0, bind = 0
+[Normal]Item: Kim TiÒn tiªu(0,0,1,0,3,1), unbind = 0, bind = 0
+[Normal]Item: §¬n §ao(0,0,0,1,3,2), unbind = 0, bind = 0
+[Normal]Item: §iÓm Cang Th­¬ng(0,0,0,3,1,3), unbind = 0, bind = 0
+[Normal]Item: NguyÖt Nha ThÝch(0,0,0,5,1,3), unbind = 0, bind = 0
+[Normal]Item: Thiªu Háa C«n (0,0,0,2,3,1), unbind = 0, bind = 0
+[Normal]Item: ThiÕu L©m T¸o Nh©n Tiªu(0,0,1,0,3,2), unbind = 0, bind = 0
+[Normal]Item: Bµn Hoa C«n (0,0,0,2,1,3), unbind = 0, bind = 0

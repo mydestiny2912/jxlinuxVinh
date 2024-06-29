@@ -1,0 +1,33 @@
+[Normal]Item: Hoµng Ngäc Giíi ChØ(0,0,3,0,4,1), unbind = 0, bind = 0
+[Normal]Item: To¸n §Çu chïy(0,0,0,4,0,1), unbind = 0, bind = 0
+[Normal]Item: Tô TiÔn(0,0,1,2,0,1), unbind = 0, bind = 0
+[Normal]Item: ChiÕu D¹ Ngäc S­ Tö (0,0,10,5,0,10), unbind = 0, bind = 0
+[Normal]Item: ChiÕu D¹ Ngäc S­ Tö (0,0,10,5,0,10), unbind = 0, bind = 0
+[Normal]Item: Tô TiÔn(0,0,1,2,0,1), unbind = 0, bind = 0
+[Normal]Item: Minh ¶o Tµ S¸t §éc NhËn(0,1,60,1,2,10),(121,0) = [31,0],(123,0) = [113,28],(125,0) = [27,18], unbind = 0, bind = 7665
+[Normal]Item: Minh ¶o U §éc ¸m Y(0,1,61,16,0,10),(139,355) = [1,0],(113,0) = [49,31],(104,0) = [30,94], unbind = 0, bind = 16875
+[Normal]Item: Minh ¶o §éc YÕt ChØ Hoµn(0,1,62,0,4,10), unbind = 0, bind = 0
+[Normal]Item: Minh ¶o Hñ Cèt Hé uyÓn(0,1,63,1,3,10),(139,65) = [3,10],(104,0) = [26,0],(139,384) = [2,10], unbind = 0, bind = 18000
+[Normal]Item: Minh Hoan Song Hoµn Xµ KhÊu(0,1,64,1,4,10),(105,0) = [25,-33], unbind = 0, bind = 0
+[Normal]Item: V« Danh ChØ Hoµn(0,1,140,0,2,10), unbind = 0, bind = 0
+[Normal]Item: V« Danh Giíi ChØ (0,1,141,0,3,10), unbind = 0, bind = 0
+[Normal]Item: V« Danh Giíi ChØ (0,1,141,0,3,10), unbind = 0, bind = 0
+[Normal]Item: Minh ¶o Tµ S¸t §éc NhËn(0,1,60,1,2,10),(121,0) = [31,0],(123,0) = [113,28],(125,0) = [27,18], unbind = 0, bind = 7665
+[Normal]Item: V« Danh ChØ Hoµn(0,1,140,0,2,10), unbind = 0, bind = 0
+[Normal]Item: ChiÕu D¹ Ngäc S­ Tö (0,0,10,5,0,10), unbind = 0, bind = 0
+[Normal]Item: ChiÕu D¹ Ngäc S­ Tö (0,0,10,5,0,10), unbind = 0, bind = 0
+[Normal]Item: V« Danh ChØ Hoµn(0,1,140,0,2,10), unbind = 0, bind = 0
+[Normal]Item: Minh ¶o Tµ S¸t §éc NhËn(0,1,60,1,2,10),(121,0) = [31,0],(123,0) = [113,28],(125,0) = [27,18], unbind = 0, bind = 7665
+[Normal]Item: V« Danh Giíi ChØ (0,1,141,0,3,10), unbind = 0, bind = 0
+[Normal]Item: Phi §ao(0,0,1,1,1,1), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,2,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,2,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,2,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,2,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,2,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,2,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,2,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,2,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,2,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,2,10), unbind = 0, bind = 0
+[Normal]Item: §¹i Phong §ao(0,0,0,1,2,10), unbind = 0, bind = 0

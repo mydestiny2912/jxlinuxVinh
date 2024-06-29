@@ -1,0 +1,9 @@
+[Normal]Item: Thanh C©u B¹ch Hång H¹ng Liªn(0,1,1114,1,0,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u B¹ch Hång §¹o Qu¸n(0,1,1115,1,2,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u B¹ch Hång Th­îng Giíi(0,1,1116,0,1,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u B¹ch Hång Hé UyÓn(0,1,1117,1,3,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u B¹ch Hång Yªu §¸i(0,1,1118,0,4,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u B¹ch Hång §¹o Bµo(0,1,1119,1,0,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u B¹ch Hång Ngoa(0,1,1121,0,1,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u B¹ch Hång Béi(0,1,1122,1,3,10), unbind = 0, bind = 20
+[Normal]Item: Thanh C©u B¹ch Hång H¹ Giíi(0,1,1123,0,4,10), unbind = 0, bind = 20

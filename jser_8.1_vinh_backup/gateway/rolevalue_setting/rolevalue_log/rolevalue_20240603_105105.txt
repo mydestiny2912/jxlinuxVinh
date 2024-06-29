@@ -1,0 +1,5 @@
+[Begin]Account(thanh1), Role(BÐQu¸§éc)
+Money(362979): Value(5)
+[Begin]Item Evaluate
+[End]Item Evaluate
+[Error]Account(thanh1), Role(BÐQu¸§éc): Role(BÐQu¸§éc): Can't Evaluate Item(iquality=0,iGenre=0,idetailtype=0,iparticulartype=1,iseries=3,ilevel=4,irandseed=28975029,ilucky=0,iequipversion=4,pnParam=(4,4,4,4,4,0),pnExParam=(0,0)

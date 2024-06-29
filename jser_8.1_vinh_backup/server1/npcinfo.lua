@@ -1,1 +1,6 @@
 ", NPC Kinh M¹ch, 2129, \script\global\thinh\rskinhmach\rskinhmach.lua"
+", Ò°ÛÅ, 108, \script\global\seasonnpc.lua"
+", Àñ¹Ù, 377, \script\global\Â·ÈË_Àñ¹Ù.lua"
+", NPC Trang BŞ, 1393, \script\global\thinh\npc\npc_trangbi.lua"
+", NPC Trang BŞ, 1393, \script\global\thinh\npc\npc_trangbi.lua"
+", ³µ·ò, 393, \script\ÖĞÔ­ÄÏÇø\ÏåÑô\ÏåÑô\npc\ÏåÑô_æäÕ¾³µ·ò¶Ô»°.lua"

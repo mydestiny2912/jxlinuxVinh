@@ -93,6 +93,11 @@ tbTop10:LuuDSNhanVat()
 	if HaveCommonItem(6,1,5122)<1 then
 	tbAwardTemplet:GiveAwardByList({{szName="",tbProp={6,1,5122,1,0},nCount=1,},}, "npctest", 1); 
 	end
+	
+	if HaveCommonItem(6,1,5121)<1 then
+	tbAwardTemplet:GiveAwardByList({{szName="",tbProp={6,1,5121,1,0},nCount=1,},}, "npctest", 1); 
+	end
+	
 	--if HaveCommonItem(6,1,5123)<1 then
 	--tbAwardTemplet:GiveAwardByList({{szName="",tbProp={6,1,5123,1,0},nCount=1,},}, "npctest", 1); 
 	--end

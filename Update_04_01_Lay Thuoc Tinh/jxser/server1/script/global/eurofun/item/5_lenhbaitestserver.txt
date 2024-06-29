@@ -1,0 +1,24 @@
+tinsert(tbSay, "T¹o ®å tÝm/CreateItemPurple")
+
+
+
+function CreateItemPurple()
+	g_AskClientStringEx("0,0,1,10,4,1,2,3,4,5,6", 0, 256, "Item Param", {AddPurple})
+end
+
+function AddPurple(szPos)
+       	local tbPos = lib:Split(szPos, ",")
+       	local Genre = tonumber(tbPos[1])
+	local Detail = tonumber(tbPos[2])
+	local Particular = tonumber(tbPos[3])
+	local Level = tonumber(tbPos[4])
+	local Series = tonumber(tbPos[5])
+	local Prop1 = tonumber(tbPos[6])
+	local Prop2 = tonumber(tbPos[7])
+	local Prop3 = tonumber(tbPos[8])
+	local Prop4 = tonumber(tbPos[9])
+	local Prop5 = tonumber(tbPos[10])
+	local Prop6 = tonumber(tbPos[11])
+	--AddItemEx(4,seed,2,Genre,Detail,Particular,Level,Series,0,Prop1,Prop2,Prop3,Prop4,Prop5,Prop6)
+	AddQualityItem(2, Genre,Detail,Particular, Level,Series,0,Prop1,Prop2,Prop3,Prop4,Prop5,Prop6) 
+end 

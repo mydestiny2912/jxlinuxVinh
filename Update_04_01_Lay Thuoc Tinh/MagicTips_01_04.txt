@@ -1,0 +1,63 @@
+Chµo c¸c b¹n ®Õn víi kªnh 
+	Magic Tips 
+        Nh÷ng ChØ DÉn ThÇn K×
+
+Fantastic attributes and where to
+find them 
+Nh÷ng thuéc tÝnh huyÒn bÝ vµ n¬i
+t×m ra chóng 
+
+1) C¸ch t×m tÊt c¶ nh÷ng thuéc tÝnh
+cã thÓ sö dông trong 1 phiªn b¶n
+B1: ChuÈn bÞ file excel 
+B2: Më file 
+settings/item/004/goldequip.txt
+b»ng excel
+B3: Më file settings/magicdesc.ini
+B4: Thªm ID cña thuéc tÝnh muèn
+check vµo cét N cña Ên chiÕn
+(dßng 6718 ®Õn 6732) 
+trong file goldequip vµ l­u.
+B5: Restart Client råi gäi list Ên 
+chiÕn ra kiÓm tra, lÊy codename
+trong magicdesc.ini vµ l­u vµo 
+b¶ng.
+
+2) Thªm thuéc tÝnh vµo dßng tr¾ng
+7 thuéc tÝnh, tõ N ®Õn AH, 
+cã d¹ng
+
+ID	min	max
+
+Nªn cho min = max v× dßng tr¾ng
+th­êng kh«ng random
+
+3) Thªm thuéc tÝnh vµo ®å xanh
+
+Thªm dßng vµo file magicattrib.txt
+§ång bé client, server
+L­u ý: toµn bé ®å xanh sÏ bÞ reset
+
+https://www.facebook.com/groups/volamquan/posts/927108581331668/
+
+4) Thªm thuéc tÝnh vµo ®å HK
+KiÓm tra thuéc tÝnh trong file magicattrib_ge.txt
+Muèn lÊy dßng x th× ®iÒn (x-1) vµo file goldequip.txt
+6 dßng vµng: AU tíi AZ
+2 dßng tÝm: BD vµ BE
+§ång bé client, server
+
+5) Thªm thuéc tÝnh vµo ®å tÝm
+
+Thªm vµo cuèi file magicattriblevel.txt t­¬ng tù nh­ trªn ®å xanh
+Sau ®ã ph¶i thªm khai b¸o dßng vµo magicattriblevel_index.txt
+Update lÖnh bµi test server ®Ó cã chøc n¨ng nhËn ®å tÝm theo code
+Có ph¸p:
+(0,0,1,10,4,1,2,3,4,5,6)
+0,0,1: sè hiÖu item, vÝ dô (0,0,0) lµ kiÕm, (0,10,0) lµ ngùa
+10 lµ cÊp
+4 lµ ngò hµnh, 0, kim, -> 4, thæ
+1,2,3,4,5,6 lµ vÞ trÝ 6 dßng muèn Ðp, xem trong magicattriblevel_index.txt (cét max)
+
+
+

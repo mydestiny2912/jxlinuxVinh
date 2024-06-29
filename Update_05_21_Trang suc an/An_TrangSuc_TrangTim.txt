@@ -1,0 +1,37 @@
+	MagicTips - Nh÷ng chØ dÉn thÇn k× - 21/05/2022
+	H­íng dÉn t¹o Ên vµ trang søc tr¾ng, tÝm 
+
+Chän client hoÆc server ®Ó lµm, råi ®ång bé bªn cßn l¹i
+
+PhÇn 1: Ên 
+
+1) Më file setting/item/004/signet.txt b»ng excel
+2) ChØnh tõ dßng 2
+	Cét A: Tªn, tïy ý
+	B, C, D: 0, 13, 0
+	E: h×nh cña Ên trong r­¬ng, cã 3 h×nh, tïy ý s¾p xÕp:
+	\spr\item\script\wuxingyin_1.spr
+	\spr\item\script\wuxingyin_2.spr
+	\spr\item\script\wuxingyin_3.spr
+	F: 37 (h×nh khi rít ra)
+	G, H: 1, 1 (sè « chiÕm trong r­¬ng, 1x1)
+	I: m« t¶ (tïy ý viÕt)
+	K: tiÒn b¸n shop (tïy ý)
+	L: level, t¨ng tõ 1 (dßng 2) ®Õn 10 (dßng 11)
+	M: 0 
+3) Tõ N trë ®i lµ thuéc tÝnh cña mãn ®å, vÝ dô:
+	246 1000 1000: ngò hµnh c­êng hãa 1000 ®iÓm (kh«ng hªn xui)
+	277 1000 1000: ngò hµnh nh­îc hãa 1000 ®iÓm 
+	C¸c b¹n tù bá vµo thuéc tÝnh m×nh thÝch
+4) §ång bé client server
+5) Vµo game lÊy Ên tr¾ng b»ng lÖnh, nhËn 0,13,0,10,0,0,0
+6) LÊy Ên tÝm b»ng lÖnh lÊy ®å tÝm 
+
+NÕu ch­a biÕt vÒ thuéc tÝnh, add thuéc tÝnh, add ®å tÝm th× c¸c b¹n cã thÓ
+xem video https://youtu.be/YIdFvKYgmRo
+
+PhÇn 2: trang søc
+
+Lµm y chang nh­ Ên, chØnh file setting/item/004/shipin.txt b»ng excel
+	
+	

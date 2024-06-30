@@ -6,7 +6,7 @@ Include("\\script\\dailogsys\\g_dialog.lua")
 Include("\\script\\activitysys\\npcdailog.lua")
 Include("\\script\\lib\\awardtemplet.lua")
 Include("\\script\\lib\\progressbar.lua")
-Include("\\script\\update_feature\\songbac\\baucua.lua")
+--Include("\\script\\update_feature\\songbac\\baucua.lua")
 ------------------------------------------------------------------
 nDiemTichLuy = 13
 TraiTao = 14

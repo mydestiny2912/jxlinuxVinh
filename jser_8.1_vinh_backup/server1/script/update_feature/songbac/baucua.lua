@@ -1,3 +1,4 @@
+--{
 Include("\\script\\lib\\timerlist.lua")
 Include("\\script\\lib\\player.lua")
 Include("\\script\\dailogsys\\dailogsay.lua")
@@ -380,3 +381,4 @@ function logplayer(zFile,szMsg)
 	closefile(handle);
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+}

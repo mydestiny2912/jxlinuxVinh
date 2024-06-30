@@ -1,7 +1,7 @@
 Include("\\script\\dailogsys\\dailogsay.lua")
 Include("\\script\\lib\\awardtemplet.lua")
 Include("\\script\\activitysys\\npcdailog.lua")
-Include("\\script\\update_feature\\songbac\\npc_choixeng.lua")
+--Include("\\script\\update_feature\\songbac\\npc_choixeng.lua")
 Include("\\script\\lib\\log.lua")
 --------------------------------------------------------
 tbSongBac = {}

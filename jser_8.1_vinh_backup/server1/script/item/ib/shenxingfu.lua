@@ -92,7 +92,7 @@ Say("ThÇn hµnh phï ®i ®Õn n¬i ®­îc chØ ®Þnh..!!!", 8,
 		"Th«n trang - Thµnh thÞ - M«n ph¸i - CLD/gototown",
 		"Maps luyÖn c«ng/goto_luyencong",
 		"Gäi héi/GoiPTToiNoi",		
-
+		"T¹o b·i train/TaoBai",	
 		"ThiÕt ®Æt ®iÓm håi sinh./set_backpos",
 		"§i lµm [Ho¹t ®«ng]./vitri_khac",
 		"T×m boss hoµng kim/timbosshk",
@@ -1336,6 +1336,50 @@ function gopos_9xdi(nIdx)
 	NewWorld(tab_lv9xmap[nIdx][1], tab_lv9xmap[nIdx][2], tab_lv9xmap[nIdx][3])
 	SetFightState(1);
 	Msg2Player("H·y ngåi yªn, chóng ta ®i ®Õn <color=Green>"..tab_lv9xmap[nIdx][5].."<color> ®Ó tiªu diÖt <color=Yellow>"..tab_lv9xmap[nIdx][4].."<color> nµo!");
+end
+
+function TaoBai()
+	 local tab_Content = {
+	 "Quai cap 10/#Tao20Con(10)",
+	 "Quai cap 20/#Tao20Con(20)",
+	 "Quai cap 30/#Tao20Con(30)",
+	 "Quai cap 40/#Tao20Con(40)",
+	 "Quai cap 50/#Tao20Con(50)",
+	 "Quai cap 60/#Tao20Con(60)",
+	 "Quai cap 70/#Tao20Con(70)",
+	 "Quai cap 80/#Tao20Con(80)",
+	 "Quai cap 90/#Tao20Con(90)",
+	 "Quai cap 100/#Tao20Con(100)",
+	 "Quai cap 110/#Tao20Con(110)",
+	 "Thoat/no",
+	 }
+	 Say("Tao bai train", getn(tab_Content), tab_Content);
+end
+
+function Tao20Con(level)
+	 local pW, pX, pY = GetWorldPos()
+	 local j = 0
+	 while j < 20 do 
+	 local id = random(1,200)
+	 local isBoss = 0
+	 if (j==10) then
+	 isBoss = 2
+	 end
+	 local nNpcIndex = AddNpcEx(id, level + 5, random(0,4),  SubWorldID2Idx(pW),(pX + random(-5,5)) * 32, (pY + random(-5,5)) * 32, 0, "" , isBoss)
+	 if nNpcIndex > 0 then
+	 local kind = GetNpcKind(nNpcIndex)
+	 if kind ~= 0 then 
+		 PIdx = NpcIdx2PIdx(nNpcIndex)
+		 if (PIdx > 0) then
+		  else
+		  DelNpc(nNpcIndex) 
+		 end
+		 else 
+		  j = j + 1
+	 end
+	 end
+	 end
+	 return 0
 end
 
 

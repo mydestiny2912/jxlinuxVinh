@@ -18,10 +18,10 @@ function GoiPTToiNoi()
 	local nPreservedPlayerIndex = PlayerIndex;
 	local nMemCount = GetTeamSize();
 	
-	AddSkillState(440,1,1,64800*8,1)
-	AddSkillState(987,1,1,64800*8,1)
-	AddSkillState(450, 20, 1, 32400)
-	AddSkillState(963, 1, 0, 18*3)
+	--AddSkillState(440,1,1,64800*8,1)
+	--AddSkillState(987,1,1,64800*8,1)
+	--AddSkillState(450, 20, 1, 32400)
+	--AddSkillState(963, 1, 0, 18*3)
 	
 	if (nMemCount == 0 ) then
 		return 0
@@ -30,16 +30,35 @@ function GoiPTToiNoi()
 	
 	for i = 1, nMemCount do
 		PlayerIndex = GetTeamMember( i );
-		AddSkillState(440,1,1,64800*8,1)
-		AddSkillState(987,1,1,64800*8,1)
-		AddSkillState(450, 20, 1, 32400)
-		AddSkillState(963, 1, 0, 18*3)
+		--AddSkillState(440,1,1,64800*8,1)
+		--AddSkillState(987,1,1,64800*8,1)
+		--AddSkillState(450, 20, 1, 32400)
+		--AddSkillState(963, 1, 0, 18*3)
 		SetFightState(nFightMode)
 		NewWorld(nW, nX, nY);
 	end;
 	
 	PlayerIndex = nPreservedPlayerIndex;
 	return 0
+end
+
+function buffTienThaoLo()
+	local nPreservedPlayerIndex = PlayerIndex;
+	local nMemCount = GetTeamSize();
+	
+	AddSkillState(440,1,1,64800*8,1)	
+	
+	if (nMemCount == 0 ) then
+		return 0
+	end	
+
+	for i = 1, nMemCount do
+		PlayerIndex = GetTeamMember( i );
+		AddSkillState(440,1,1,64800*8,1)
+	end;
+	
+	PlayerIndex = nPreservedPlayerIndex;
+	return 0	
 end
 
 function main(sel)
@@ -88,7 +107,7 @@ function main(sel)
 			return 1
 		end;
 
-Say("ThÇn hµnh phï ®i ®Õn n¬i ®­îc chØ ®Þnh..!!!", 8,
+Say("ThÇn hµnh phï ®i ®Õn n¬i ®­îc chØ ®Þnh..!!!", 10,
 		"Th«n trang - Thµnh thÞ - M«n ph¸i - CLD/gototown",
 		"Maps luyÖn c«ng/goto_luyencong",
 		"Gäi héi/GoiPTToiNoi",		
@@ -97,6 +116,7 @@ Say("ThÇn hµnh phï ®i ®Õn n¬i ®­îc chØ ®Þnh..!!!", 8,
 		"§i lµm [Ho¹t ®«ng]./vitri_khac",
 		"T×m boss hoµng kim/timbosshk",
 		"§i Minh NguyÖt TrÊn - §µo Hoa §¶o./#tbVNGWORDPOS:GotoOtherMap()",
+		"Buff Tiªn Th¶o Lé 8h cho tæ l¸i/buffTienThaoLo",
 		"Rêi khái/no");
 	return 1
 end;

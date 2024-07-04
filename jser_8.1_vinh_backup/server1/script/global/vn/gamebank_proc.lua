@@ -25,7 +25,7 @@ function gamebank_proc()
 		"Ta muèn rót TiÒn §ång/get_ingot",
 		"Ta muèn ®æi TiÒn §ång/pay_ingot",--doi knb thµnh ngµy choi
 		"KiÓm tra ta cßn gëi bao nhiªu TiÒn §ång/show_ingot",
---		"Ta muèn ®æi Nguyªn b¶o thµnh TiÒn ®ång/change_ingot_to_coin",
+		"Ta muèn ®æi Nguyªn b¶o thµnh TiÒn ®ång/change_ingot_to_coin",
 		"Nh©n tiÖn ghÐ qua th«i/no"
 	};
 
@@ -167,7 +167,6 @@ end
 
 ------------- ¶Ò»»Í­Ç®---------------------
 function change_ingot_to_coin()	
-do return end
 	local nSilverCount = GetItemCountEx( 343 );		-- Ôª±¦¸öÊý
 
 	if (SYSCFG_GAMEBANK_SILVER_COIN ~= 1) then

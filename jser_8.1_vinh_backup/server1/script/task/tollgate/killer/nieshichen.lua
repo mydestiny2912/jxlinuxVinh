@@ -18,6 +18,7 @@ Include("\\script\\missions\\challengeoftime\\rank_perday.lua");
 
 --Thªm dßng kiÓm tra ®iÒu kiÖn tham gia khiªu chiÕn cña tæ ®éi - Modified by DinhHQ - 20110504
 Include("\\script\\vng_feature\\challengeoftime\\npcNhiepThiTran.lua")
+Include("\\settings\\trigger_challengeoftime_manual.lua")
 
 ContentList = {
 	"<#>NÕu ai cã ®ñ 160  s¸t thñ gi¶n trong tay th× giÊc méng trë thµnh ®Ö nhÊt s¸t thñ ®· xem nh­ hoµn thµnh. Mçi ngµy chØ cÇn hoµn thµnh <color=yellow>8nhiÖm vô<color>lµ ®­îc. <enter>H·y tiÕp nhËn nhiÖm vô “th¸ch thøc thêi gian” ®Ó thÓ nghiÖm søc m¹nh ®ång ®éivµ kh¶ n¨ng s¸t thñ cña m×nh.",
@@ -43,25 +44,32 @@ ContentList = {
 	"<#> Hîp l¹i mét lÇn n÷a/compose",
 	"<#> B¹n ®· hîp thµnh mét<color=",
 	"<#> Thuéc tİnh<color> s¸t thñ gi¶n, s¸t thñ gi¶n lµ mét s¸t thñ phi phµm. B¹n cã thÓ dïng mét s¸t thñ cïng cÊp ®Ó so tµi víi s¸t thñ gi¶n, quy t¾c th¾ng thua ®­îc ¸p dông theo quy t¾c t­¬ng kh¾c cña ngò hµnh. ",
-	"<#> Thö luyÖn s¸t thñ /annealofkiller",
+	"<#> Thö luyÖn s¸t thñ /annealofkiller", --24
 	"<#> Tham gia khiªu chiÕn/want_playboat",	--25
 	"<#> S¸t thñ luyÖn thøc tr­íc tiªn ph¶i b¾t ®Çu tõ viÖc tham gia khiªu chiÕn, ng­¬i d¸m tiÕp nhËn nhiÖm vô chø?",
 	"<#> Liªn quan ®Õn khiªu chiÕn/aboutchallenge",
 	"<#> Cø mçi giê hÖ thèng sÏ th«ng b¸o 1 lÇn. Thêi gian b¸o danh lµ 5 phót, thùc hiÖn chØ trong 30 phót. Mçi ng­êi chØ tèi ®a 2 lÇn/ngµy. Ph¶i ®o ®éi tr­ëng ®Õn b¸o danh. <enter>”NhiÖm vô th¸ch thøc thêi gian” gåm 2 khu vùc tham gia. S¬ cÊp: ng­êi ch¬i tõ cÊp 50 ®Õn 89, do ®éi tr­ëng mang 2 s¸t thñ gi¶n d­íi cÊp 90 (ngò hµnh bÊt kú) ®i b¸o danh. Cao cÊp: ng­êi ch¬i tõ cÊp 90, do ®éi tr­ëng mang 2 s¸t thñ gi¶n cÊp 90 (ngò hµnh bÊt kú) ®i b¸o danh. <enter>Néi trong thêi gian quy ®Şnh, nÕu v­ît qua hÕt 28 ¶i sÏ hoµn thµnh. Mçi ¶i phÇn th­ëng kinh nghiÖm sÏ kh¸c nhau. NÕu hoµn thµnh nhiÖm vô tr­íc thêi gian h¹n ®Şnh, phÇn th­ëng kinh nghiÖm sÏ cµng cao <enter>NÕu tr­íc thêi h¹n ®· hoµn thµnh, cã thÓ sÏ xuÊt hiÖn thªm 1 ¶i, trong ®ã cã nhiÒu phÇn th­ëng bÊt ngê (vËt phÈm ngÉu nhiªn, trang bŞ Hoµng Kim…). ChØ nh÷ng ®éi ®· v­ît 28 ¶i ®óng thêi gian quy ®Şnh míi cã tªn trong b¶ng xÕp h¹ng.",
 	"<#> NhiÖm vô \"Qu¸ quan tÇm b¶o\"/guoguan_xunbao",
 	"<#> Ta ®Õn nhËn th­ëng/rank_award",
-	"<#> Ta ®Õn xem xÕp h¹ng 5 ®éi cao nhÊt cña h«m nay./get_top5team"
+	"<#> Ta ®Õn xem xÕp h¹ng 5 ®éi cao nhÊt cña h«m nay./get_top5team",
+	"<#> Manual Join V­ît ¶i Now/dragon_join",  --32
+	"<#> Start Task Trigger V­ît ¶i Now/VuotAiNow",  --33
 }
 
 killertabfile = new(KTabFile,"/settings/task/tollgate/killer/killer.txt","KILLER")
 
 function main()
 	UWorld1082 = nt_getTask(1082);
-	local tbDialog = {ContentList[24],ContentList[17],ContentList[2],ContentList[3],ContentList[4],ContentList[5],ContentList[6],ContentList[7],ContentList[8],ContentList[9],ContentList[10],ContentList[15]};
+	local tbDialog = {ContentList[24],ContentList[17],ContentList[2],ContentList[3],ContentList[4],ContentList[5],ContentList[6],ContentList[7],ContentList[8],ContentList[9],ContentList[10],ContentList[32],ContentList[33],ContentList[15]};
 	if (tbBirthday0905:IsActDate() == 1) then
 		tinsert(tbDialog, 12, ContentList[29]);
 	end
 	Describe(DescLink_NieShiChen..ContentList[1], getn(tbDialog), unpack(tbDialog));
+end
+
+function VuotAiNow()
+	OnTriggerManual()
+	AddLocalCountNews("Thêi gian b¸o danh 'Th¸ch thøc thêi gian' ®· b¾t ®Çu, c¸c ®éi tr­ëng h·y mau ®Õn NhiÕp Thİ TrÇn ë c¸c thµnh thŞ b¸o danh. Thêi gian b¸o danh lµ 5 phót.", 2);
 end
 
 function annealofkiller()

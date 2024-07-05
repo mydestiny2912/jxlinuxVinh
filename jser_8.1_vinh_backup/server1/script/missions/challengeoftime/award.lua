@@ -109,8 +109,8 @@ function award_batch_extend(batch)
 			--%tbPro.nCount = 1
 			--CallPlayerFunction(nPlayerIndex, tbAwardTemplet.GiveAwardByList, tbAwardTemplet, %tbPro, "xiaonieshichen awrad", 1)
 			
-			--local nExpCount = 10000000
-			local nExpCount = 20000
+			local nExpCount = 10000000
+			--local nExpCount = 20000
 
 			--nExpCount = Chuangguan_checkdoubleexp(nExpCount)
 			CallPlayerFunction(nPlayerIndex, tbAwardTemplet.GiveAwardByList, tbAwardTemplet, {nExp_tl=1,nCount = nExpCount,}, "xiaonieshichen awrad", 1)
@@ -182,7 +182,7 @@ function award_player(exp, objects, time)
 		experience = exp(time);
 	end	
 	if (experience ~= 0) then
-		local point = experience * 1000;
+		local point = experience * 1000000;
 		--给与120技能熟练度
 		AddExp_Skill_Extend(point);
 --		if(greatnight_huang_event(3) == 1) then

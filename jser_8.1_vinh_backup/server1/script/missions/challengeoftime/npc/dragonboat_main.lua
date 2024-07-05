@@ -3,10 +3,10 @@ Include("\\script\\lib\\log.lua")
 Include("\\script\\activitysys\\functionlib.lua")
 function COT_CheckTeamRequirement()
 	local oldplayer = PlayerIndex
-	if (IsCaptain() ~= 1) then
-		Say("Xin lçi! CÇn ph¶i lµ §éi tr­ëng míi cã t­ c¸ch b¸o danh tham gia 'NhiÖm vô Th¸ch thøc thêi gian'",0)
-		return
-	end
+	-- if (IsCaptain() ~= 1) then
+		-- Say("Xin lçi! CÇn ph¶i lµ §éi tr­ëng míi cã t­ c¸ch b¸o danh tham gia 'NhiÖm vô Th¸ch thøc thêi gian'",0)
+		-- return
+	-- end
 	
 	if (GetTeamSize() < 1) then
 		Say("Xin lçi! §éi tham gia 'NhiÖm vô Th¸ch thøc thêi gian' cÇn ph¶i cã Ýt nhÊt <color=red>4<color> ng­êi!",0)

@@ -16,8 +16,8 @@ function main()
 		end
 	end
 		
-	if(GetTask(%TSK_Longxuewan_Use) >= 2) then
-		Say("Mçi ngµy mçi ng­êi chØ ®­îc sö dung 2 Long HuyÕt Hoµn", 0);
+	if(GetTask(%TSK_Longxuewan_Use) >= 20) then
+		Say("Mçi ngµy mçi ng­êi chØ ®­îc sö dung 20 Long HuyÕt Hoµn", 0);
 		return 1
 	end
 	

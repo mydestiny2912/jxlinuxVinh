@@ -9,7 +9,7 @@ TIMER_BOARD				= 42		-- 通告定时器
 TIMER_CLOSE				= 43		-- 比赛结束定时器
 INTERVAL_BOARD			= 1			-- 通报间隔（分钟）：每分钟通报一次
 INTERVAL_MATCH			= 3600		-- 每小时比赛一次（秒）
-TIME_SIGNUP				= 10
+TIME_SIGNUP				= 5
 LIMIT_SIGNUP			= TIME_SIGNUP * 60		-- 报名时间期限（秒）：10分钟
 LIMIT_FINISH 			= 30 * 60	-- 任务时间期限（秒）：30分钟
 BOAT_POSX				= 1559		-- 玩家被传送到龙舟的x坐标
@@ -29,7 +29,7 @@ CHUANGGUAN30_TIME_LIMIT = 13*60		-- 前二十九关需要提早完成的时间
 CHUANGGUAN30_START_TIME = 10
 CHUANGGUAN30_END_TIME	= 22
 PLAYER_MAP_TASK			= 2852
-COUNT_LIMIT 		= 1
+COUNT_LIMIT 		= 10
 
 
 

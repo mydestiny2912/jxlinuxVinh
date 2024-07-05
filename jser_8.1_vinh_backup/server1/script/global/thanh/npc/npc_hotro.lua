@@ -22,10 +22,14 @@ function tbGiveSkill60:MainDialog()
 	tinsert(tbOpt, {"NhËn hæ trî t©n thñ vµ cÊp 60", tbGiveSkill60.GetSkillSupport, {tbGiveSkill60}})
 	tinsert(tbOpt, {"NhËn KÜ N¨ng sau Khi Gia NhËp M«n Ph¸i", tbGiveSkill60.GetSkill, {tbGiveSkill60}})	
 	tinsert(tbOpt, {"NhËn trang bÞ Thanh C©u", tbGiveSkill60.GetThanhCau, {tbGiveSkill60}})
+	tinsert(tbOpt, {"Shop VIP", tbGiveSkill60.OpenShopVip, {tbGiveSkill60}})
 	tinsert(tbOpt, {"Hñy bá "})
 	CreateNewSayEx("Mêi ®¹i hiÖp chän", tbOpt)
 end
- 
+
+function tbGiveSkill60:OpenShopVip()
+	Sale(188)	
+end 
 
 function tbGiveSkill60:GetThanhCau( )
 	if(GetLevel() < 60 )then

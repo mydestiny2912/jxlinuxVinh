@@ -12,13 +12,18 @@ function main()
 		"Kh«ng giao dÞch/OnCancel", 
 		--"Hîp thµnh më s¸ch kÜ n¨ng cÊp 150/#tbLvUp150L21Limit:Compose()",
 		"Xin h·y ®­a ta ®Õn ngän nói Tr­êng B¹ch/GotoHuanZhuan",
-		"Liªn quan ®Õn phóc duyªn/OnAbout"
+		"Liªn quan ®Õn phóc duyªn/OnAbout",
+		"Shop VIP/OpenShopVip"
 	};
 	if (au06_is_inperiod() == 1) then
 		--tinsert(tab_Content, " Ho¹t ®éng Trung Thu/au06_lpaw_entrance");
 	end;
 	--tinsert(tab_Content, "Më r­¬ng 4/#tbChectfour:main()");
 	Say ( "Kh¸ch quan muèn mua g×? Bæn tiÖm kh«ng thiÕu mãn g×!", getn(tab_Content), tab_Content);
+end
+
+function OpenShopVip()
+	Sale(188);
 end
 
 function OnBuy()

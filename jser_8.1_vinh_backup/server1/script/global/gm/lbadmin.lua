@@ -31,7 +31,7 @@ dofile("script/global/gm/lbadmin.lua")
 	local szTitle = LENHBAI_ADMIN.."Xin chµo Admin <color=red>"..GetName().."<color>,Nh÷ng chøc n¨ng bªn d­íi cã thÓ gióp b¹n kiÓm tra Server hoÆc hæ trî ng­êi ch¬i.\n\n<pic=137> Online    : <color=green>"..GetPlayerCount().."<color>"
 	local tbOpt =
 		{
-			--{"Test Toa Do",Test}, 
+			{"Test Toa Do",TestToaDo}, 
 			{"Qu¶n Lý Server",QLServer}, 
 			{"Chøc N¨ng Bang Héi",DMcreattongtest},
 			{"Më réng r­¬ng",moruong},
@@ -43,6 +43,7 @@ dofile("script/global/gm/lbadmin.lua")
 			{"NhËn Danh HiÖu",nhandanhhieu},
 			--{"LÊy Trang BÞ(GoldeQuip)",Glodequip},
 			{"Di ChuyÓn VÒ Ba L¨ng HuyÖn",GoBLH},
+			{"§i b·i luyÖn c«ng",GoBaiLuyenCong},
 			{"Tho¸t"},
 		}
 		CreateNewSayEx(szTitle, tbOpt)
@@ -54,14 +55,14 @@ ST_DoTransLife()
 end
 
 
+function TestToaDo()
+	local nMap,nX,nY = GetWorldPos();
+	Say("Map: "..nMap..",X: "..nX..",Y: "..nY.." zb");
+end
 
-function Test()
---local nMap,nX,nY = GetWorldPos();
---if nMap == 80 then
---Say("Map 80")
---else
---Say("Khong Phai Map 80")
---end
+function GoBaiLuyenCong()
+	NewWorld(995,1604,3199)
+	SetFightState(1)
 end
 
 -----Quan Ly Server-------------------

@@ -8,7 +8,7 @@ Include("\\script\\item\\ib\\headshenxingfu.lua")
 Include("\\script\\task\\system\\task_string.lua");
 Include("\\script\\missions\\boss\\callboss_incity.lua")
 IncludeLib("TONG")
-
+IncludeLib("NPCINFO")
 
 
 function GoiPTToiNoi() 
@@ -107,11 +107,14 @@ function main(sel)
 			return 1
 		end;
 
-Say("ThÇn hµnh phï ®i ®Õn n¬i ®­îc chØ ®Þnh..!!!", 10,
+Say("ThÇn hµnh phï ®i ®Õn n¬i ®­îc chØ ®Þnh..!!!", 12,
 		"Th«n trang - Thµnh thÞ - M«n ph¸i - CLD/gototown",
 		"Maps luyÖn c«ng/goto_luyencong",
 		"Gäi héi/GoiPTToiNoi",		
-		"T¹o b·i train/TaoBai",	
+		--"T¹o b·i train/TaoBai",
+		"T¹o b·i train by Maps (6 npcs)/taoBaiTrain",
+		"T¹o b·i NhÝm Heo.../TaoBai",
+		"Xãa b·i train/xoaBaiTrain",
 		"ThiÕt ®Æt ®iÓm håi sinh./set_backpos",
 		"§i lµm [Ho¹t ®«ng]./vitri_khac",
 		"T×m boss hoµng kim/timbosshk",
@@ -120,6 +123,164 @@ Say("ThÇn hµnh phï ®i ®Õn n¬i ®­îc chØ ®Þnh..!!!", 10,
 		"Rêi khái/no");
 	return 1
 end;
+
+function taoBaiTrain()
+    local tbNpcList = GetAroundNpcList(60)
+    local pW, pX, pY = GetWorldPos()
+    local tmpFound = {}
+    local nNpcIdx
+
+    for i=1,getn(tbNpcList) do
+        nNpcIdx = tbNpcList[i]
+        local nSettingIdx = GetNpcSettingIdx(nNpcIdx)
+        local name = GetNpcName(nNpcIdx)
+        local level = NPCINFO_GetLevel(nNpcIdx)
+        local kind = GetNpcKind(nNpcIdx)
+        local nScript = GetNpcScript(nNpcIdx)
+        if nSettingIdx > 0 and kind == 0 then
+            tinsert(tmpFound, {nSettingIdx, name, level})       
+        end
+    end
+
+    local total = getn(tmpFound)
+    if total == 0 then
+        return 0
+    end
+
+    local j = 0
+    while j < 6 do
+        local data = tmpFound[random(1, total)]
+        local isBoss = 0
+        if (j==5) then
+            isBoss = 2
+        end
+		-- set fixed MAPS :D
+		taoBaiDuocVuongDong4(data, pW, isBoss)
+		taoBaiTruongBachNam(data, pW, isBoss)
+		taoBaiMacCaoQuat(data, pW, isBoss)
+		-- 		
+		local nNpcIndex = addNpcCustom(data, pW, pX, pY, isBoss)
+        if nNpcIndex > 0 then
+        j = j + 1
+        end
+    end
+
+    return 0
+end
+
+function addNpcCustom(data, pW, pX, pY, isBoss)
+	local nNpcIndex = AddNpcEx(data[1], data[3], random(0,4), SubWorldID2Idx(pW),(pX + random(-5,5)) * 32, (pY + random(-5,5)) * 32, 0, data[2] , isBoss)
+	return nNpcIndex
+end
+
+function taoBaiDuocVuongDong4(data, pW, isBoss)
+	if (pW==144) then	
+		local toaDoTrain = {
+			-- D­îc V­¬ng ®éng tÇng 4
+			{144, 1724,3148},
+			{144, 1659,3108},
+			{144, 1650,3110},
+			{144, 1669,3110},
+			{144, 1680,3111},
+			{144, 1695,3117},
+			{144, 1699,3129},
+			{144, 1710,3128},
+			{144, 1718,3145},			
+			{144, 1730,3148},
+			{144, 1745,3161},
+			{144, 1756,3171},
+			{144, 1741,3180},
+			{144, 1738,3190},	
+			{144, 1727,3197},
+		}
+		
+		for i=1,getn(toaDoTrain) do
+			addNpcCustom(data, pW, toaDoTrain[i][2], toaDoTrain[i][3], isBoss)
+		end
+    end	
+end
+
+function taoBaiTruongBachNam(data, pW, isBoss)
+	if (pW==321) then	
+		local toaDoTrain = {
+			-- truong bach nam
+			{321, 1032, 2359},
+			{321, 1050, 2365},
+			{321, 1057, 2394},
+			{321, 1052, 2413},
+			{321, 1037, 2427},
+			{321, 1069, 2420},
+			{321, 1074, 2395},
+			{321, 1092, 2400},
+			{321, 1090, 2428},
+			{321, 1077, 2422},
+			{321, 1084, 2436},
+			{321, 1109, 2439},
+			{321, 1110, 2409},
+			{321, 1108, 2389},
+			{321, 1096, 2364},
+			{321, 1086, 2350},
+			{321, 1073, 2337},
+			{321, 1056, 2351},
+			{321, 1051, 2363},
+		}
+		
+		for i=1,getn(toaDoTrain) do
+			addNpcCustom(data, pW, toaDoTrain[i][2], toaDoTrain[i][3], isBoss)
+		end
+    end	
+end
+
+function taoBaiMacCaoQuat(data, pW, isBoss)
+	if (pW==340) then	
+		local toaDoTrain = {
+			-- Mac Cao Quat
+			{340, 1878, 3384},
+			{340, 1860, 3384},
+			{340, 1846, 3375},
+			{340, 1829, 3376},
+			{340, 1846, 3361},
+			{340, 1864, 3362},
+			{340, 1883, 3343},
+			{340, 1898, 3318},
+			{340, 1868, 3336},
+			{340, 1841, 3333},
+			{340, 1828, 3339},
+			{340, 1844, 3313},
+			{340, 1849, 3291},
+			{340, 1874, 3297},
+			{340, 1859, 3269},
+			{340, 1884, 3255},
+			{340, 1887, 3281},
+			{340, 1902, 3282},
+			{340, 1901, 3313},
+			{340, 1892, 3334},
+			{340, 1858, 3374},
+		}
+		
+		for i=1,getn(toaDoTrain) do
+			addNpcCustom(data, pW, toaDoTrain[i][2], toaDoTrain[i][3], isBoss)
+		end
+    end	
+end
+
+function xoaBaiTrain()
+	local tbNpcList = GetAroundNpcList(30)
+	local pW, pX, pY = GetWorldPos()
+	local tmpFound = {}
+	local nNpcIdx
+	
+	for i=1,getn(tbNpcList) do
+		nNpcIdx = tbNpcList[i]
+		local kind = GetNpcKind(nNpcIdx)
+		local nSettingIdx = GetNpcSettingIdx(nNpcIdx)
+		if nSettingIdx > 0 and kind == 0 then
+			DelNpc(nNpcIdx)
+		end
+	end
+	
+	return 0
+end
 
 function didenchienlongok()
 -- if GetFaction() == "cuiyan" then
@@ -1360,14 +1521,14 @@ end
 
 function TaoBai()
 	 local tab_Content = {
-	 "Quai cap 10/#Tao20Con(10)",
-	 "Quai cap 20/#Tao20Con(20)",
-	 "Quai cap 30/#Tao20Con(30)",
-	 "Quai cap 40/#Tao20Con(40)",
-	 "Quai cap 50/#Tao20Con(50)",
-	 "Quai cap 60/#Tao20Con(60)",
-	 "Quai cap 70/#Tao20Con(70)",
-	 "Quai cap 80/#Tao20Con(80)",
+	 -- "Quai cap 10/#Tao20Con(10)",
+	 -- "Quai cap 20/#Tao20Con(20)",
+	 -- "Quai cap 30/#Tao20Con(30)",
+	 -- "Quai cap 40/#Tao20Con(40)",
+	 -- "Quai cap 50/#Tao20Con(50)",
+	 -- "Quai cap 60/#Tao20Con(60)",
+	 -- "Quai cap 70/#Tao20Con(70)",
+	 -- "Quai cap 80/#Tao20Con(80)",
 	 "Quai cap 90/#Tao20Con(90)",
 	 "Quai cap 100/#Tao20Con(100)",
 	 "Quai cap 110/#Tao20Con(110)",
@@ -1377,29 +1538,32 @@ function TaoBai()
 end
 
 function Tao20Con(level)
-	 local pW, pX, pY = GetWorldPos()
-	 local j = 0
-	 while j < 20 do 
-	 local id = random(1,200)
-	 local isBoss = 0
-	 if (j==10) then
-	 isBoss = 2
-	 end
-	 local nNpcIndex = AddNpcEx(id, level + 5, random(0,4),  SubWorldID2Idx(pW),(pX + random(-5,5)) * 32, (pY + random(-5,5)) * 32, 0, "" , isBoss)
-	 if nNpcIndex > 0 then
-	 local kind = GetNpcKind(nNpcIndex)
-	 if kind ~= 0 then 
-		 PIdx = NpcIdx2PIdx(nNpcIndex)
-		 if (PIdx > 0) then
-		  else
-		  DelNpc(nNpcIndex) 
-		 end
-		 else 
-		  j = j + 1
-	 end
-	 end
-	 end
-	 return 0
+	local pW, pX, pY = GetWorldPos()
+	local j = 0
+	local danhSachQuai = {12,31,32,33,42,43} -- npcs.txt (danhSachQuai + 2) line
+	 
+	while j < 20 do 
+		--local id = random(1,200)
+		local id = danhSachQuai[random(1,getn(danhSachQuai))]
+		local isBoss = 0
+		if (j==10) then
+			isBoss = 2
+		end
+		local nNpcIndex = AddNpcEx(id, level + 5, random(0,4),  SubWorldID2Idx(pW),(pX + random(-5,5)) * 32, (pY + random(-5,5)) * 32, 0, "" , isBoss)
+		if nNpcIndex > 0 then
+			local kind = GetNpcKind(nNpcIndex)
+			if kind ~= 0 then 
+				PIdx = NpcIdx2PIdx(nNpcIndex)
+				if (PIdx > 0) then
+				else
+					DelNpc(nNpcIndex) 
+				end		
+			else 
+				j = j + 1
+			end
+		end
+	end
+	return 0
 end
 
 

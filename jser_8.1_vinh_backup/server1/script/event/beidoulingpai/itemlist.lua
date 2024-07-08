@@ -1,5 +1,4 @@
-tbBD_ItemList={}
-tbBD_ItemList2 = 
+tbBD_ItemList = 
 {	
 	[1] = {szName="§å phæ Hoµng Kim - §Þnh Quèc Thanh Sa Tr­êng Sam", tbProp={6,1,383,-1,-1,0}, nAwardExp=10000000, nCount=1},
 	[2] = {szName="§å phæ Hoµng Kim - §Þnh Quèc Ng©n Tµm Yªu ®¸i", tbProp={6,1,387,-1,-1,0}, nAwardExp=10000000, nCount=1},

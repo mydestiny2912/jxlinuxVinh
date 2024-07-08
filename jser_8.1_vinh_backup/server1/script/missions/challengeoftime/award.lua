@@ -96,23 +96,24 @@ function award_batch_extend(batch)
 		local nPlayerIndex = tbPlayerList[i]
 		
 		--加帮会贡献度
-		--CallPlayerFunction(nPlayerIndex, award_batch_contribution, batch)
+		CallPlayerFunction(nPlayerIndex, award_batch_contribution, batch)
 		-- 越南生日活动时间挑战赛的过关数
 		--CallPlayerFunction(nPlayerIndex, SetTask, tbBirthday0905.tbTask.tsk_toll_cg_passcount, batch)
 		-- 闯关调整 by wangjingjun 2011.03.01
-			--if %tbAward_batch[batch] and GetMissionV(VARV_BATCH_MODEL) == 1 then
-				--%tbPro.nCount = %tbAward_batch[batch]
-				--CallPlayerFunction(nPlayerIndex, tbAwardTemplet.GiveAwardByList, tbAwardTemplet, %tbPro, "chuangguan award", 1)
-			--end
+		if %tbAward_batch[batch] and GetMissionV(VARV_BATCH_MODEL) == 1 then
+			%tbPro.nCount = %tbAward_batch[batch]
+			CallPlayerFunction(nPlayerIndex, tbAwardTemplet.GiveAwardByList, tbAwardTemplet, %tbPro, "chuangguan award", 1)
+		end
+			
 			-- 小聂弑尘奖励
 		if GetMissionV(VARV_BATCH_MODEL) == 1 and batch == GetMissionV(VARV_XIAONIESHICHEN_BATCH) then
-			--%tbPro.nCount = 1
-			--CallPlayerFunction(nPlayerIndex, tbAwardTemplet.GiveAwardByList, tbAwardTemplet, %tbPro, "xiaonieshichen awrad", 1)
+			%tbPro.nCount = 1
+			CallPlayerFunction(nPlayerIndex, tbAwardTemplet.GiveAwardByList, tbAwardTemplet, %tbPro, "xiaonieshichen awrad", 1)
 			
 			local nExpCount = 10000000
 			--local nExpCount = 20000
 
-			--nExpCount = Chuangguan_checkdoubleexp(nExpCount)
+			nExpCount = Chuangguan_checkdoubleexp(nExpCount)
 			CallPlayerFunction(nPlayerIndex, tbAwardTemplet.GiveAwardByList, tbAwardTemplet, {nExp_tl=1,nCount = nExpCount,}, "xiaonieshichen awrad", 1)
 		end
 	end
@@ -185,13 +186,14 @@ function award_player(exp, objects, time)
 		local point = experience * 1000000;
 		--给与120技能熟练度
 		AddExp_Skill_Extend(point);
---		if(greatnight_huang_event(3) == 1) then
---		elseif(greatnight_huang_event(3) == 2) then
---			point = point * 2;
---		elseif(greatnight_huang_event(3) == 3) then
---			point = point * 3;
---		else
---		end;
+		if(greatnight_huang_event(3) == 1) then
+		elseif(greatnight_huang_event(3) == 2) then
+			point = point * 2;
+		elseif(greatnight_huang_event(3) == 3) then
+			point = point * 3;
+		else
+		end;
+		
 		-- 是否队长
 		local name = GetMissionS(VARS_TEAM_NAME);
 		if (GetName() == name) then
@@ -202,7 +204,7 @@ function award_player(exp, objects, time)
 		end
 		
 		point = BigBoss:AddChuangGuanPoint(point);
-		--point = Chuangguan_checkdoubleexp(point)
+		point = Chuangguan_checkdoubleexp(point)
 		AddOwnExp(point);
 		Msg2Player("<#> B筺 nh薾 頲 " .. point .. "甶觤 kinh nghi謒.");
 	end
@@ -224,9 +226,9 @@ function drop_item(index, count)
 		end
 	end
 	-- 掉落礼品盒
-	--if ( random(1,100) <= 5 ) then
-	--	DropItem(world, x, y, -1, 6, 1, 1392, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-	--end
+	if ( random(1,100) <= 5 ) then
+		DropItem(world, x, y, -1, 6, 1, 1392, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	end
 end
 
 -- 奖励

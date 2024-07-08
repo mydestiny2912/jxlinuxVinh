@@ -60,7 +60,7 @@ killertabfile = new(KTabFile,"/settings/task/tollgate/killer/killer.txt","KILLER
 
 function main()
 	UWorld1082 = nt_getTask(1082);
-	local tbDialog = {ContentList[24],ContentList[17],ContentList[2],ContentList[3],ContentList[4],ContentList[5],ContentList[6],ContentList[7],ContentList[8],ContentList[9],ContentList[10],ContentList[32],ContentList[33],ContentList[15]};
+	local tbDialog = {ContentList[24],ContentList[17],ContentList[2],ContentList[3],ContentList[4],ContentList[5],ContentList[6],ContentList[7],ContentList[8],ContentList[9],ContentList[10],ContentList[30],ContentList[31],ContentList[33],ContentList[15]};
 	if (tbBirthday0905:IsActDate() == 1) then
 		tinsert(tbDialog, 12, ContentList[29]);
 	end

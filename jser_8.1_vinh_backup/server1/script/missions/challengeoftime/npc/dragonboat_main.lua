@@ -198,11 +198,11 @@ function COT_TeamJoin(nMatchLevel)
 	Pay(10000)
 	
 	local ndate = tonumber(GetLocalDate("%H"))
-	if ndate <= 22 and ndate >= 10 and nMatchLevel == 2 then
+	--if ndate <= 22 and ndate >= 10 and nMatchLevel == 2 then
 		SetMissionV(VARV_BATCH_MODEL,1)
-	else
-		SetMissionV(VARV_BATCH_MODEL,0)
-	end
+	--else
+	--	SetMissionV(VARV_BATCH_MODEL,0)
+	--end
 	
 	for i = 1 , getn(tbPlayers) do 
 		CallPlayerFunction(tbPlayers[i], COT_TeamMemberJoin, nMatchLevel)

@@ -41,8 +41,8 @@ tbVnItemAwardEx = {
 				{szName="Phi Tèc hoµn",tbProp={6,0,6,1,0,0},nCount=1,nRate=15},
 	},
 	[2] = {--PhÇn 2
-		-- {szName="Tói D­îc PhÈm",tbProp={6,1,30557,1,0,0},nCount=1,nRate=30},
-		-- {szName="Cµn Kh«n T¹o Hãa §an (®¹i)",tbProp={6,1,215,1,0,0},nCount=50,nRate=40},
+		 {szName="Tói D­îc PhÈm",tbProp={6,1,30557,1,0,0},nCount=1,nRate=30},
+		 {szName="Cµn Kh«n T¹o Hãa §an (®¹i)",tbProp={6,1,215,1,0,0},nCount=50,nRate=40},
 		{szName="§¹i Lùc hoµn",tbProp={6,0,3,1,0,0},nCount=1,nRate=15},
 		{szName="Phi Tèc hoµn",tbProp={6,0,6,1,0,0},nCount=1,nRate=15},
 	},
@@ -51,7 +51,7 @@ tbVnItemAwardEx = {
 		-- {szName = "§»ng Long Th¹ch - H¹", tbProp = {6, 1, 30538,1,0,0}, nRate = 6,nCount=5},
 		-- {szName = "§å Phæ Tinh S­¬ng Hé UyÓn", tbProp = {6, 1, 30009,1,0,0}, nRate = 0.4,},
 		-- {szName = "§å Phæ Tinh S­¬ng H¹ng Liªn", tbProp = {6, 1, 30010,1,0,0}, nRate = 0.4,},
-				{szName="Phi Tèc hoµn",tbProp={6,0,6,1,0,0},nCount=1,nRate=15},
+		{szName="Phi Tèc hoµn",tbProp={6,0,6,1,0,0},nCount=1,nRate=15},
 
 	},
 }

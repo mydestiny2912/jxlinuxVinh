@@ -97,20 +97,20 @@ function Mission_Complete(npc_index)
 	broadcast(GetMissionS(VARS_TEAM_NAME) .. "§éi ngò ®· th¾ng lîi hoµn thµnh nhiÖm vô ®óng thêi gian, ®· dông" .. floor(time / 60) .. " phót " .. mod(time, 60) .. "gi©y! Tr­íc ®ã"..laddertime.." gi©y ");
 
 	-- Èç¹ûÓÃÊ±ÉÙÓÚ12·ÖÖÓ£¬´ÓÒş²Ø¹Ø¿¨ÖĞËæ»úÑ¡È¡1¸ö¿ªÆô	
-	kickout();
+	--kickout();
 
-			--if (time < 20 * 60) then
-			--	local tbNpcList = GetHidenNpcList()
+	if (time < 20 * 60) then
+		local tbNpcList = GetHidenNpcList()
 
-			--	local index = random(1, getn(tbNpcList));
-			--	close_board_timer();
-			--	Msg2MSAll(MISSION_MATCH, "<#>NhiÖm vô bİ mËt ®· khái ®éng råi");
-			--	create_all_npc(tbNpcList[index]);
-			--	tbLog:TabFormatLog("challengeoftime", "Mission_Complete", "HiddenNpc", index, time)
-			--else
-				-- Ìß»Ø±¨Ãûµã
-			--	kickout();
-			--end
+		local index = random(1, getn(tbNpcList));
+		close_board_timer();
+		Msg2MSAll(MISSION_MATCH, "<#>NhiÖm vô bİ mËt ®· khái ®éng råi");
+		create_all_npc(tbNpcList[index]);
+		tbLog:TabFormatLog("challengeoftime", "Mission_Complete", "HiddenNpc", index, time)
+	else
+		--Ìß»Ø±¨Ãûµã
+		kickout();
+	end
 end
 
 -- Åú´Î½áÊø

@@ -35,11 +35,11 @@ end
 
 function gotonewworld()
 	local ndate = tonumber(GetLocalDate("%H"))
-	if ndate > 22 and ndate < 10 then
-		Say("Trong thêi gian nµy kh«ng thÓ tiÕn hµnh tiÕp tôc V­ît ¶i", 0)
-		leave()
-		return 
-	end
+	-- if ndate > 22 and ndate < 10 then
+		-- Say("Trong thêi gian nµy kh«ng thÓ tiÕn hµnh tiÕp tôc V­ît ¶i", 0)
+		-- leave()
+		-- return 
+	-- end
 	local nMinute = tonumber(GetLocalDate("%M"))
 	if nMinute >= 24 then
 		Talk(1, "", "Xin l­îng thø, Ng­¬i ®· v­ît qu¸ thêi gian truyÒn tèng") 

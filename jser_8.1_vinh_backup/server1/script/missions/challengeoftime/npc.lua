@@ -269,40 +269,40 @@ map_random_awards = {
 	{0.15, 	{"Tiªn Th¶o Lé",			6, 1, 71, 1, 0, 0}},	-- ÏÉ²İÂ¶
 	{0.1, 		{"Thiªn s¬n  B¶o Lé ",		6, 1, 72, 1, 0, 0}},	-- ÌìÉ½ÓñÂ¶
 	{0.1, 		{"B¸ch Qu¶ Lé",			6, 1, 73, 1, 0, 0}},	-- °Ù¹ûÂ¶
---	{0.00, 		{"´ó°×¾ÔÍè",		6, 1, 130, 1, 0, 0}},	-- ´ó°×¾ÔÍè
+	{0.00, 		{"´ó°×¾ÔÍè",		6, 1, 130, 1, 0, 0}},	-- ´ó°×¾ÔÍè
 	{0.05, 		{"LÖnh bµi Phong L¨ng §é",		489}},					-- ·çÁê¶ÉÁîÅÆ
-	--{0.0005, 	{" §å phæ Hoµng Kim - §Şnh Quèc Thanh Sa Tr­êng Sam",	0, 159}},				-- ¶¨¹úÖ®ÇàÉ´³¤ÉÀ
-	--{0.0005, 	{"§Şnh Quèc ¤ Sa Ph¸t Qu¸n",	0, 160}},				-- ¶¨¹úÖ®ÎÙÉ°·¢¹Ú
-	--{0.0005,		{"§Şnh Quèc Xİch Quyªn NhuyÔn Ngoa",	0, 161}},				-- ¶¨¹úÖ®³à¾îÈíÑ¥
-	--{0.0005,		{" §å phæ Hoµng Kim - §Şnh Quèc Tö §»ng Hé uyÓn",	0, 162}},				-- ¶¨¹úÖ®×ÏÌÙ»¤Íó
-	--{0.0005,		{" §å phæ Hoµng Kim - §Şnh Quèc Ng©n Tµm Yªu ®¸i",	0, 163}},				-- ¶¨¹úÖ®Òø²ÏÑü´ø
-	--{0.0001,	{"An Bang B¨ng Tinh Th¹ch H¹ng Liªn",0, 164}},				-- °²°îÖ®±ù¾§Ê¯ÏîÁ´
-	--{0.0001,	{" §å phæ Hoµng Kim - An Bang Cóc Hoa Th¹ch ChØ hoµn",0, 165}},				-- °²°îÖ®¾Õ»¨Ê¯Ö¸»·
-	--{0.0001,	{" §å phæ Hoµng Kim - An Bang §iÒn Hoµng Th¹ch Ngäc Béi",0, 166}},				-- °²°îÖ®Ìï»ÆÊ¯ÓñÅå
-	--{0.0001,	{" §å phæ Hoµng Kim - An Bang Kª HuyÕt Th¹ch Giíi ChØ ",0, 167}},				-- °²°îÖ®¼¦ÑªÊ¯½äÖ¸
-	--{0.00001, {"Méng Long Kim Ti Chİnh Hång Cµ Sa",	0, 2}},				-- ÃÎÁúÖ®½ğË¿ÕıºìôÂôÄ
-	--{0.00001, {"Tø Kh«ng Gi¸ng Ma Giíi ®ao",	0, 11}},				-- ËÄ¿ÕÖ®½µÄ§½äµ¶
-	--{0.00001,	{"Phôc Ma Tö Kim C«n",	0, 6}},				-- ·üÄ§Ö®×Ï½ğ¹÷
-	--{0.00001,	{"KÕ NghiÖp B«n L«i Toµn Long th­¬ng",	0, 21}},				-- ¼ÌÒµÖ®±¼À××êÁúÇ¹
-	--{0.00001,	{"Ngù Long L­îng Ng©n B¶o ®ao",	0, 26}},				-- ÓùÁúÖ®ÁÁÒø±¦µ¶
-	--{0.00001,	{"§Şa Ph¸ch H¾c DiÖm Xung Thiªn Liªn",0, 87}},				-- µØÆÇÖ®ºÚÑæ³åÌìÁ´
-	--{0.00001,	{"B¨ng Hµn §¬n ChØ Phi §ao",0, 71}},				-- ±ùº®Ö®µ¯Ö¸·Éµ¶
-	--{0.00001,	{"S©m Hoang Phi Tinh §o¹t Hån",0, 81}},				-- É­»ÄÖ®·ÉĞÇ¶á»ê
-	--{0.00001,	{"Thiªn Quang §Şnh T©m Ng­ng ThÇn Phï ",0, 77}},				-- Ìì¹âÖ®¶¨ĞÄÄıÉñ·û
-	--{0.00001, {"Chó Ph­îc DiÖt L«i C¶nh Phï ",	0, 67}},				-- Öä¸¿Ö®ÃğÀ×¾±·û
-	--{0.00001, {"Minh ¶o Tµ S¸t §éc NhËn",	0, 61}},				-- Ú¤»ÃÖ®Ğ°É²¶¾ÈĞ
-	--{0.00001,	{"Tª Hoµng Phông Nghi ®ao",	0, 46}},				-- ÆÜ»ËÖ®·ïÒÇµ¶
-	--{0.00001,	{"Bİch H¶i Uyªn ¦¬ng Liªn Hoµn ®ao",	0, 51}},				-- ±Ìº£Ö®Ô§ÑìÁ¬»·µ¶
-	--{0.00001,	{"V« Ma Hång Truy NhuyÔn Th¸p hµi",	0, 40}},				-- ÎŞ÷ÊÖ®ºìç»Èí¶NĞ¬
-	--{0.00001,	{"V« Ma TÈy T­îng Ngäc KhÊu ",0, 39}},				-- ÎŞ÷ÊÖ®Ï´ÏóÓñ¿Û
-	--{0.00001,	{"CËp Phong Tam Thanh Phï ",0, 122}},				-- ¼°·áÖ®ÈıÇå·û
-	--{0.00001,	{"Vô ¶o B¾c Minh §¹o qu¸n",0, 136}},				-- Îí»ÃÖ®±±Ú¤µÀ¹Ú
-	--{0.00001,	{"S­¬ng Tinh Thiªn Niªn Hµn ThiÕt",0, 126}},				-- Ëª¾§Ö®Ç§Äêº®Ìú
-	--{0.00001,	{"L«i Khung Thiªn §Şa Hé phï ",	0, 132}},				-- À×ñ·Ö®ÌìµØ»¤·û
-	--{0.00001,	{"Ma ThŞ s¬n  H¶i Phi Hång Lı ",	0, 115}},				-- Ä§ÊÈÖ®É½º£·ÉºèÂÄ
-	--{0.00001,	{"Ma Hoµng ¸n XuÊt Hæ H¹ng Khuyªn",	0, 107}},				-- Ä§»ÍÖ®°´³ö»¢ÏîÈ¦
-	--{0.00001,	{"§ång Cõu Kh¸ng Long Hé UyÓn",0, 94}},				-- Í¬³ğÖ®¿ºÁú»¤ÊÖ
-	--{0.00001,	{"§Şch Kh¸i Lôc Ngäc Tr­îng",0, 96}},				-- µĞâéÖ®ÂÌÓñÕÈ
+	{0.0005, 	{" §å phæ Hoµng Kim - §Şnh Quèc Thanh Sa Tr­êng Sam",	0, 159}},				-- ¶¨¹úÖ®ÇàÉ´³¤ÉÀ
+	{0.0005, 	{"§Şnh Quèc ¤ Sa Ph¸t Qu¸n",	0, 160}},				-- ¶¨¹úÖ®ÎÙÉ°·¢¹Ú
+	{0.0005,		{"§Şnh Quèc Xİch Quyªn NhuyÔn Ngoa",	0, 161}},				-- ¶¨¹úÖ®³à¾îÈíÑ¥
+	{0.0005,		{" §å phæ Hoµng Kim - §Şnh Quèc Tö §»ng Hé uyÓn",	0, 162}},				-- ¶¨¹úÖ®×ÏÌÙ»¤Íó
+	{0.0005,		{" §å phæ Hoµng Kim - §Şnh Quèc Ng©n Tµm Yªu ®¸i",	0, 163}},				-- ¶¨¹úÖ®Òø²ÏÑü´ø
+	{0.0001,	{"An Bang B¨ng Tinh Th¹ch H¹ng Liªn",0, 164}},				-- °²°îÖ®±ù¾§Ê¯ÏîÁ´
+	{0.0001,	{" §å phæ Hoµng Kim - An Bang Cóc Hoa Th¹ch ChØ hoµn",0, 165}},				-- °²°îÖ®¾Õ»¨Ê¯Ö¸»·
+	{0.0001,	{" §å phæ Hoµng Kim - An Bang §iÒn Hoµng Th¹ch Ngäc Béi",0, 166}},				-- °²°îÖ®Ìï»ÆÊ¯ÓñÅå
+	{0.0001,	{" §å phæ Hoµng Kim - An Bang Kª HuyÕt Th¹ch Giíi ChØ ",0, 167}},				-- °²°îÖ®¼¦ÑªÊ¯½äÖ¸
+	{0.00001, {"Méng Long Kim Ti Chİnh Hång Cµ Sa",	0, 2}},				-- ÃÎÁúÖ®½ğË¿ÕıºìôÂôÄ
+	{0.00001, {"Tø Kh«ng Gi¸ng Ma Giíi ®ao",	0, 11}},				-- ËÄ¿ÕÖ®½µÄ§½äµ¶
+	{0.00001,	{"Phôc Ma Tö Kim C«n",	0, 6}},				-- ·üÄ§Ö®×Ï½ğ¹÷
+	{0.00001,	{"KÕ NghiÖp B«n L«i Toµn Long th­¬ng",	0, 21}},				-- ¼ÌÒµÖ®±¼À××êÁúÇ¹
+	{0.00001,	{"Ngù Long L­îng Ng©n B¶o ®ao",	0, 26}},				-- ÓùÁúÖ®ÁÁÒø±¦µ¶
+	{0.00001,	{"§Şa Ph¸ch H¾c DiÖm Xung Thiªn Liªn",0, 87}},				-- µØÆÇÖ®ºÚÑæ³åÌìÁ´
+	{0.00001,	{"B¨ng Hµn §¬n ChØ Phi §ao",0, 71}},				-- ±ùº®Ö®µ¯Ö¸·Éµ¶
+	{0.00001,	{"S©m Hoang Phi Tinh §o¹t Hån",0, 81}},				-- É­»ÄÖ®·ÉĞÇ¶á»ê
+	{0.00001,	{"Thiªn Quang §Şnh T©m Ng­ng ThÇn Phï ",0, 77}},				-- Ìì¹âÖ®¶¨ĞÄÄıÉñ·û
+	{0.00001, {"Chó Ph­îc DiÖt L«i C¶nh Phï ",	0, 67}},				-- Öä¸¿Ö®ÃğÀ×¾±·û
+	{0.00001, {"Minh ¶o Tµ S¸t §éc NhËn",	0, 61}},				-- Ú¤»ÃÖ®Ğ°É²¶¾ÈĞ
+	{0.00001,	{"Tª Hoµng Phông Nghi ®ao",	0, 46}},				-- ÆÜ»ËÖ®·ïÒÇµ¶
+	{0.00001,	{"Bİch H¶i Uyªn ¦¬ng Liªn Hoµn ®ao",	0, 51}},				-- ±Ìº£Ö®Ô§ÑìÁ¬»·µ¶
+	{0.00001,	{"V« Ma Hång Truy NhuyÔn Th¸p hµi",	0, 40}},				-- ÎŞ÷ÊÖ®ºìç»Èí¶NĞ¬
+	{0.00001,	{"V« Ma TÈy T­îng Ngäc KhÊu ",0, 39}},				-- ÎŞ÷ÊÖ®Ï´ÏóÓñ¿Û
+	{0.00001,	{"CËp Phong Tam Thanh Phï ",0, 122}},				-- ¼°·áÖ®ÈıÇå·û
+	{0.00001,	{"Vô ¶o B¾c Minh §¹o qu¸n",0, 136}},				-- Îí»ÃÖ®±±Ú¤µÀ¹Ú
+	{0.00001,	{"S­¬ng Tinh Thiªn Niªn Hµn ThiÕt",0, 126}},				-- Ëª¾§Ö®Ç§Äêº®Ìú
+	{0.00001,	{"L«i Khung Thiªn §Şa Hé phï ",	0, 132}},				-- À×ñ·Ö®ÌìµØ»¤·û
+	{0.00001,	{"Ma ThŞ s¬n  H¶i Phi Hång Lı ",	0, 115}},				-- Ä§ÊÈÖ®É½º£·ÉºèÂÄ
+	{0.00001,	{"Ma Hoµng ¸n XuÊt Hæ H¹ng Khuyªn",	0, 107}},				-- Ä§»ÍÖ®°´³ö»¢ÏîÈ¦
+	{0.00001,	{"§ång Cõu Kh¸ng Long Hé UyÓn",0, 94}},				-- Í¬³ğÖ®¿ºÁú»¤ÊÖ
+	{0.00001,	{"§Şch Kh¸i Lôc Ngäc Tr­îng",0, 96}},				-- µĞâéÖ®ÂÌÓñÕÈ
 };
 
 -- »ñÈ¡NPCµÄID
@@ -476,26 +476,26 @@ function create_batch_npc(batch)
 	-- ´³¹Øµ÷Õû by wangjingjun 2011.03.01
 	if batch == GetMissionV(VARV_XIAONIESHICHEN_BATCH) and GetMissionV(VARV_BATCH_MODEL) == 1 then
 
-		--add_npc(map_new_Ncp[1])
-	--	basemission_CallNpc(map_new_Ncp[1], SubWorldIdx2ID(SubWorld),nX, nY)
-		--SetMissionV(VARV_NPC_COUNT, npc_count + 1);
-		--WriteLog("TiÓu NhiÕp Thİ TrÇn ®· tham gia chiÕn cuéc!")
-		--Msg2MSAll(MISSION_MATCH, "TiÓu NhiÕp Thİ TrÇn ®· tham gia chiÕn cuéc!");
+		add_npc(map_new_Ncp[1])
+		basemission_CallNpc(map_new_Ncp[1], SubWorldIdx2ID(SubWorld),nX, nY)
+		SetMissionV(VARV_NPC_COUNT, npc_count + 1);
+		WriteLog("TiÓu NhiÕp Thİ TrÇn ®· tham gia chiÕn cuéc!")
+		Msg2MSAll(MISSION_MATCH, "TiÓu NhiÕp Thİ TrÇn ®· tham gia chiÕn cuéc!");
 	end
 
 	local msg = "XuÊt hiÖn" .. npc_count .. "con qu¸i!"
 	Msg2MSAll(MISSION_MATCH, msg)
 	
 	-- µÚ11¹ØË¢³öÈÕ³£ÈÎÎñ¶Ô»°NPC
-	--if (batch == 11) then
+	if (batch == 11) then
 		-- ÈÕ³£ÈÎÎñË¢ĞÂ¶Ô»°NPC
-	--	%tbTalkDailyTask:AddTalkNpc(SubWorldIdx2ID(SubWorld), SubWorldIdx2ID(SubWorld));
-	--end
+		%tbTalkDailyTask:AddTalkNpc(SubWorldIdx2ID(SubWorld), SubWorldIdx2ID(SubWorld));
+	end
 end
 
 
 -- Ôö¼Ó´³¹Ø´«ËÍnpc
 function add_transfer_npc()
 	local nX,nY, nMapIndex = GetPos()
-	--basemission_CallNpc(map_transfer_npc[1], SubWorldIdx2ID(nMapIndex),1568*32, 3227*32)
+	basemission_CallNpc(map_transfer_npc[1], SubWorldIdx2ID(nMapIndex),1568*32, 3227*32)
 end

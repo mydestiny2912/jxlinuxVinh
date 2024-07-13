@@ -10,8 +10,8 @@ Include("\\script\\task\\equipex\\head.lua");
 -- °×½ğ×°±¸
 Include("\\script\\global\\platina_upgrade.lua")
 --ÖØÖı°×½ğ×°±¸
---Include("\\script\\global\\recoin_platinaequip.lua")
---Include("\\script\\event\\reclaim_equip\\reclaim_equip.lua") --»ØÊÕ°ó¶¨ÎïÆ·
+Include("\\script\\global\\recoin_platinaequip.lua")
+Include("\\script\\event\\reclaim_equip\\reclaim_equip.lua") --»ØÊÕ°ó¶¨ÎïÆ·
 
 Include("\\script\\misc\\itemexchangevalue\\itemexchangevalue.lua") -- ¶Ò»»¾«Á¶±¦Ïä
 Include("\\script\\misc\\itemexchangevalue\\ex_goldequip_lingpai.lua")	-- ¶Ò»»ĞÂ×°±¸ÁîÅÆ£¨×ÏòşµÈ£©
@@ -36,18 +36,18 @@ function main()
 	
 	local aryDescribe =
 	{
-	--	"Ta muèn t×m hiÓu vÒ bé An bang Hoµn mü./main_talk",
-	--	"Ta muèn mêi ng­¬i trïng luyÖn trang bŞ b¹ch kim/platina_main",
+		--"Ta muèn t×m hiÓu vÒ bé An bang Hoµn mü./main_talk",
+		--"Ta muèn mêi ng­¬i trïng luyÖn trang bŞ b¹ch kim/platina_main",
 		--"ÎÒÏëÇëÄãÖØÖı½ğÎÚ×°±¸/refine_jinwu",
-		--"ÎÒÏëÇëÄãÖØÖı°×½ğ×°±¸/recoin_platina_main",
-	--	"Nhê ng­¬i gióp ta ph©n m¶nh mét sè trang bŞ hoµng kim./split_entry",
-	--	"Ta muèn sö dông m¶nh trang bŞ ®Ó hîp thµnh trang bŞ Hoµng Kim./compose_entry",
-		--"Ta muèn ®æi thiÕt huyÕt ®¬n/exchange_tiexuedan",
-		--"ÎÒÏë½øĞĞÍêÃÀºèÓ°Ê×ÊÎµÄÖÆ×÷/perfect_hongying_main",
-		--"ÎÒÕâÀïÓĞÒ»Ğ©¶àÓàµÄ´òÔì²ÄÁÏ/equipex_recycle_main",
-		--"ÎÒÏë°ÑËéÆ¬»»³ÉÏàÍ¬»Æ½ğ×°±¸µÄÆäËûËéÆ¬/exchange_entry",
-		--"Ta muèn lÊy trang bŞ ®æi thµnh hån th¹ch/exchange_olditem",
-		--"Ta muèn dïng hån th¹ch ®æi lÖnh bµi/exchange_lingpai",
+		"Ta muèn ®óng trang bŞ B¹ch Kim/recoin_platina_main",
+		"Nhê ng­¬i gióp ta ph©n m¶nh mét sè trang bŞ hoµng kim./split_entry",
+		"Ta muèn sö dông m¶nh trang bŞ ®Ó hîp thµnh trang bŞ Hoµng Kim./compose_entry",
+		"Ta muèn ®æi thiÕt huyÕt ®¬n/exchange_tiexuedan",
+		--"T¹o trang bŞ Hång ¶nh/perfect_hongying_main",
+		--"Ta muèn t×m hiÓu/equipex_recycle_main",
+		--"Ta muèn ®æi m¹nh vôn/exchange_entry",
+		"Ta muèn lÊy trang bŞ ®æi thµnh hån th¹ch/exchange_olditem",
+		"Ta muèn dïng hån th¹ch ®æi lÖnh bµi/exchange_lingpai",
 		"Ta muèn dïng lÖnh bµi ®æi trang bŞ/exchange_lingpai2goldequip",
 	}
 	for i = 1, getn(aryDescribe) do

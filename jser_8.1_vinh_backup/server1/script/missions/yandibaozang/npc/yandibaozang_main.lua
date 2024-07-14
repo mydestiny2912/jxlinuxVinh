@@ -10,6 +10,7 @@ Include("\\script\\missions\\yandibaozang\\include.lua")
 Include("\\script\\missions\\yandibaozang\\npc\\golditem.lua")
 Include("\\script\\missions\\yandibaozang\\npc\\yandituteng.lua")
 Include("\\script\\missions\\yandibaozang\\yandiduihuan.lua")
+Include("\\script\\missions\\yandibaozang\\yandibaozang_trigger.lua")
 
 --YDBZ_DATE_START = 13	--	¿ªÊ¼Ê±¼ä
 --YDBZ_DATE_END = 23		--	½áÊøÊ±¼ä
@@ -24,13 +25,14 @@ function main()
 	local tbarytalk = {
 	"<dec><npc>C¸ch ch¬i v­ît ¶i míi, néi dung míi, boss míi, b¶n ®å míi, v« vµn kú tr©n dŞ b¶o, rÊt thİch hîp c¸c trang bŞ hoµng kim cña m«n ph¸i chØ cã t¹i b¶o tµng viªm ®Õ. C¸c h¹ ®· chuÈn bŞ ch­a?",
 	"Xem t×nh h×nh tæ ®éi/YDBZ_view_player",
---	"Ñ×µÛ»Æ½ğÍ¼Æ×¶Ò»»/YDBZ_golditem",
---	"Ñ×µÛÍ¼ÌÚ¶Ò»»/YDBZ_tradeYandiTuTeng",
---	"Ta muèn ®æi viªm ®Õ lÖnh kú/YDBZ_tradeYandiLingQi",
---	"Ta muèn ®æi huyÒn viªn lÖnh/YDBZ_tradeXuanYuanLing",
---	"ÎÒÒªÖØÖıÑ×µÛ»Æ½ğ×°±¸/yandiduihuan_main",
---	"ÖØÖıÑ×µÛ»Æ½ğ×°±¸ËµÃ÷/yandiduihuan_shuoming",
+	"Ñ×µÛ»Æ½ğÍ¼Æ×¶Ò»»/YDBZ_golditem",
+	"Ñ×µÛÍ¼ÌÚ¶Ò»»/YDBZ_tradeYandiTuTeng",
+	"Ta muèn ®æi viªm ®Õ lÖnh kú/YDBZ_tradeYandiLingQi",
+	"Ta muèn ®æi huyÒn viªn lÖnh/YDBZ_tradeXuanYuanLing",
+	"ÎÒÒªÖØÖıÑ×µÛ»Æ½ğ×°±¸/yandiduihuan_main",
+	"ÖØÖıÑ×µÛ»Æ½ğ×°±¸ËµÃ÷/yandiduihuan_shuoming",
 	"Nguån gèc b¶o tµng viªm ®Õ/YDBZ_about",
+	"Start Viªm §Õ manual/startViemDeManual",
 	"Ta chØ muèn d¹o ch¬i/NoChoice",
 	}
 	if YDBZ_check_ready_state() == 1 then
@@ -38,6 +40,11 @@ function main()
 		tinsert(tbarytalk,3,"Thµnh viªn tham chiÕn/YDBZ_member_play")
 	end
 	CreateTaskSay(tbarytalk)
+end
+
+function startViemDeManual()
+	YDBZ_OnTrigger();	
+	AddLocalCountNews("Ho¹t ®éng v­ît ¶i b¶o tµng viªm ®Õ ®· b¾t ®Çu b¸o danh råi, mäi ng­êi h·y nhanh chãng ®Õn B×nh B×nh c« n­¬ng ë BiÖn Kinh ®Ó ®¨ng kı nhĞ, thêi gian b¸o danh lµ 5 phót.", 2);
 end
 
 function YDBZ_check_ready_state()

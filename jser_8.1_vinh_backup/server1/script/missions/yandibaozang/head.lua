@@ -54,10 +54,10 @@ YDBZ_LIMIT_DAY_COUNT		= 4 				-- Ã¿Ìì²Î¼Ó×î´ó´ÎÊý
 YDBZ_PAIHANG_ID					=	10252			--ÅÅÐÐ°ñID
 YDBZ_LIMIT_ITEM					= {{6,1,1604},1,"Anh Hïng ThiÕp"}	--ÐèÒªÐÅÎï£¬Ó¢ÐÛÌû£¬tb1£¬Í¼Æ×ID£¬tb2£¬ÐèÒªÊýÁ¿
 YDBZ_LIMIT_DOUBEL_ITEM	= {{6,1,1617},1,"Viªm §Õ LÖnh"}	--Ñ×µÛÁî£¬¿É»ñµÃË«±¶µÄ½±Àø
-YDBZ_AWARD_EXP 					= 600000									--Ã¿Í¨¹ýÒ»¹ØÕû¶Ó»ñµÃµÄ¾­Ñé
-YDBZ_Faninl_AWARD_EXP		=	300000									--Õù¶áµØboss¾­Ñé
-YDBZ_KILLPLAYER_EXP 		= 200000									--É±ËÀÒ»¸öµÐÈË»ñµÃ¾­Ñé£¨É±Íæ¼ÒµÃ¾­Ñé£©
-YDBZ_KILLLASTBOSS_EXP		= 1000000									--É±ËÀ×îÖÕboss»ñµÃ¾­Ñé
+YDBZ_AWARD_EXP 					= 6000000*2									--Ã¿Í¨¹ýÒ»¹ØÕû¶Ó»ñµÃµÄ¾­Ñé
+YDBZ_Faninl_AWARD_EXP		=	3000000*2									--Õù¶áµØboss¾­Ñé
+YDBZ_KILLPLAYER_EXP 		= 2000000*2									--É±ËÀÒ»¸öµÐÈË»ñµÃ¾­Ñé£¨É±Íæ¼ÒµÃ¾­Ñé£©
+YDBZ_KILLLASTBOSS_EXP		= 10000000*2									--É±ËÀ×îÖÕboss»ñµÃ¾­Ñé
 YDBZ_BOAT_POS 					=													--Íæ¼Ò±»´«ËÍ±¦²Ø³¡µÄ3¸öµãx,y×ø±ê¡£
 {
 	[1]={60032,104832},
@@ -141,7 +141,7 @@ YDBZ_tbaward_item ={
 	{--¼¸ÂÊ%,¸öÊý,ÎïÆ·ID,ÊÇ·ñµôµØÉÏ(0,µôµØÉÏ£¬1Ö±½ÓËæ»úµôÒ»¸ö¶ÓÔ±ÉíÉÏ),Ãû³Æ,Ë«±¶ÍèÊÇ·ñÓÐÐ§
 		{50,1,{6,1,1605,1,0,0},1,"H×nh nh©n",1},		--¿þÀÜ
 		{100,15,{1, 2, 0, 5, 0, 0},0,"Ngò Hoa Ngäc Lé Hoµn",0}, --Îå»¨
---		{10,1,{6,1,1606,1,0,0},1,"Viªm §Õ §å §»ng",1},			--ËéÆ¬
+		{10,1,{6,1,1606,1,0,0},1,"Viªm §Õ §å §»ng",1},			--ËéÆ¬
 --		{10,1,{6,0,1591,1,0,0},1,"Ñ×µÛ±¦²Ø×¨ÓÃ³¤ÃüÍè",0},
 --		{10,1,{6,0,1592,1,0,0},1,"Ñ×µÛ±¦²Ø×¨ÓÃ¼ÓÅÜÍè",0},
 --		{10,1,{6,0,1593,1,0,0},1,"Ñ×µÛ±¦²Ø×¨ÓÃ´óÁ¦Íè",0},
@@ -157,51 +157,50 @@ YDBZ_tbaward_item ={
 	{
 		{100,1,{6,1,1605,1,0,0},1,"H×nh nh©n",1},		--¿þÀÜ
 		{100,30,{1, 2, 0, 5, 0, 0},0,"Ngò Hoa Ngäc Lé Hoµn",0},--Îå»¨
---		{30,1,{6,1,1606,1,0,0},1,"Viªm §Õ §å §»ng",1}			--ËéÆ¬
+		{30,1,{6,1,1606,1,0,0},1,"Viªm §Õ §å §»ng",1}			--ËéÆ¬
 	},
 	-- Thay ®æi phÇn th­ëng Boss cuèi tÝnh n¨ng Viªm §Õ -Modifiled by ThanhLD - 20130417	
 	[4]=--×îÖÕboss
 	{	
-		-- [1] = {{szName="XÝch L©n LÖnh",tbProp={6,1,3393,1,0,0},nCount=1,nRate=0.4},},
-		-- [2] = {{szName="M¶nh XÝch L©n",tbProp={6,1,3391,1,0,0},nCount=1,nRate=3},},
-		-- [3] = {{szName="XÝch L©n Kim Bµi",tbProp={6,1,3392,1,0,0},nCount=1,nRate=4},},
-		-- [4] = {{szName="XÝch L©n Tr¶o",tbProp={6,1,3394,1,0,0},nCount=1,nRate=7},},
-		-- [5] = {{szName="XÝch L©n Gi¸c",tbProp={6,1,3395,1,0,0},nCount=1,nRate=4},},
-		-- [6] = {{szName="XÝch L©n T×nh",tbProp={6,1,3396,1,0,0},nCount=1,nRate=2.5},},
-		-- [7] = {{szName="B¹ch Hæ Ph¸t Qu¸n - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={2,0,0,0,0,0},CallBack = _Message},},
-		-- [8] = {{szName="B¹ch Hæ Kim Kh¶i - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.3,tbParam={6,0,0,0,0,0},CallBack = _Message},},
-		-- [9] = {{szName="B¹ch Hæ Yªu §¸i - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={5,0,0,0,0,0},CallBack = _Message},},
-		-- [10] = {{szName="B¹ch Hæ H¹ng Liªn - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={1,0,0,0,0,0},CallBack = _Message},},
-		-- [11] = {{szName="B¹ch Hæ Ngäc Béi - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={9,0,0,0,0,0},CallBack = _Message},},
-		-- [12] = {{szName="B¹ch Hæ Hµi - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={8,0,0,0,0,0},CallBack = _Message},},
-		-- [13] = {{szName="B¹ch Hæ Hé UyÓn - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={4,0,0,0,0,0},CallBack = _Message},},
-		-- [14] = {{szName="B¹ch Hæ Th­îng Giíi ChØ - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={3,0,0,0,0,0},CallBack = _Message},},
-		-- [15] = {{szName="B¹ch Hæ H¹ Giíi ChØ - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={10,0,0,0,0,0},CallBack = _Message},},
-		-- [16] = {{szName="B¹ch Hæ KhÝ Giíi - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.2,tbParam={7,0,0,0,0,0},CallBack = _Message},},
-		-- [17] = {{szName="XÝch L©n Ph¸t Qu¸n - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={2,0,0,0,0,0},CallBack = _Message},},
-		-- [18] = {{szName="XÝch L©n Kim Kh¶i - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.02,tbParam={6,0,0,0,0,0},CallBack = _Message},},
-		-- [19] = {{szName="XÝch L©n Yªu §¸i - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={5,0,0,0,0,0},CallBack = _Message},},
-		-- [20] = {{szName="XÝch L©n H¹ng Liªn - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={1,0,0,0,0,0},CallBack = _Message},},
-		-- [21] = {{szName="XÝch L©n Ngäc Béi - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={9,0,0,0,0,0},CallBack = _Message},},
-		-- [22] = {{szName="XÝch L©n Hµi - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={8,0,0,0,0,0},CallBack = _Message},},
-		-- [23] = {{szName="XÝch L©n Hé UyÓn - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={4,0,0,0,0,0},CallBack = _Message},},
-		-- [24] = {{szName="XÝch L©n Th­îng Giíi ChØ - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={3,0,0,0,0,0},CallBack = _Message},},
-		-- [25] = {{szName="XÝch L©n H¹ Giíi ChØ - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={10,0,0,0,0,0},CallBack = _Message},},
-		-- [26] = {{szName="XÝch L©n KhÝ Giíi - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.02,tbParam={7,0,0,0,0,0},CallBack = _Message},},
-		-- [27] = {{szName="Cµn Kh«n Song TuyÖt Béi",tbProp={6,1,2219,1,0,0},nCount=1,nRate=0.6,nExpiredTime=43200},},
-		-- [28] = {{szName="Cèng HiÕn LÔ bao",tbProp={6,1,30214,1,0,0},nCount=1,nRate=10,nExpiredTime=10080},},
-		-- [29] = {{szName="KiÕn ThiÕt LÔ Bao",tbProp={6,1,30216,1,0,0},nCount=1,nRate=10,nExpiredTime=10080},},
-		-- [30] = {{szName="ChiÕn BÞ LÔ Bao",tbProp={6,1,30218,1,0,0},nCount=1,nRate=10,nExpiredTime=10080},},
-		-- [31] = {{szName="Bao D­îc hoµn ",tbProp={6,1,910,1,0,0},nCount=1,nRate=15,nExpiredTime=20160},},
-		-- [32] = {{szName="B¹ch Hæ Trïng LuyÖn Ngäc",tbProp={6,1,3187,1,0,0},nCount=1,nRate=3},},
-		-- [33] = {{szName="M¹c B¾c TruyÒn Tèng LÖnh",tbProp={6,1,1448,1,0,0},nCount=1,nRate=5,nExpiredTime=20160},},
-		-- [34] = {{szName="Vâ L©m MËt TÞch",tbProp={6,1,26,1,0,0},nCount=1,nRate=6},},
-		-- [35] = {{szName="TÈy Tñy Kinh",tbProp={6,1,22,1,0,0},nCount=1,nRate=6},},
-		-- [36] = {{szName="Thiªn Linh §¬n",tbProp={6,1,3022,1,0,0},nCount=1,nRate=5,nExpiredTime=10080},},
-		-- [37] = {{szName="§¹i lùc hoµn lÔ bao",tbProp={6,1,2517,1,0,0},nCount=1,nRate=7,nExpiredTime=10080},},
-		-- [38] = {{szName="Phi tèc hoµn lÔ bao",tbProp={6,1,2520,1,0,0},nCount=1,nRate=7,nExpiredTime=10080},},
-		-- [39] = {{szName="Qu¶ Hoµng Kim",tbProp={6,1,907,1,0,0},nCount=1,nRate=10,nExpiredTime=10080},},
-
+		[1] = {{szName="XÝch L©n LÖnh",tbProp={6,1,3393,1,0,0},nCount=1,nRate=0.4},},
+		[2] = {{szName="M¶nh XÝch L©n",tbProp={6,1,3391,1,0,0},nCount=1,nRate=3},},
+		[3] = {{szName="XÝch L©n Kim Bµi",tbProp={6,1,3392,1,0,0},nCount=1,nRate=4},},
+		[4] = {{szName="XÝch L©n Tr¶o",tbProp={6,1,3394,1,0,0},nCount=1,nRate=7},},
+		[5] = {{szName="XÝch L©n Gi¸c",tbProp={6,1,3395,1,0,0},nCount=1,nRate=4},},
+		[6] = {{szName="XÝch L©n T×nh",tbProp={6,1,3396,1,0,0},nCount=1,nRate=2.5},},
+		[7] = {{szName="B¹ch Hæ Ph¸t Qu¸n - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={2,0,0,0,0,0},CallBack = _Message},},
+		[8] = {{szName="B¹ch Hæ Kim Kh¶i - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.3,tbParam={6,0,0,0,0,0},CallBack = _Message},},
+		[9] = {{szName="B¹ch Hæ Yªu §¸i - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={5,0,0,0,0,0},CallBack = _Message},},
+		[10] = {{szName="B¹ch Hæ H¹ng Liªn - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={1,0,0,0,0,0},CallBack = _Message},},
+		[11] = {{szName="B¹ch Hæ Ngäc Béi - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={9,0,0,0,0,0},CallBack = _Message},},
+		[12] = {{szName="B¹ch Hæ Hµi - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={8,0,0,0,0,0},CallBack = _Message},},
+		[13] = {{szName="B¹ch Hæ Hé UyÓn - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={4,0,0,0,0,0},CallBack = _Message},},
+		[14] = {{szName="B¹ch Hæ Th­îng Giíi ChØ - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={3,0,0,0,0,0},CallBack = _Message},},
+		[15] = {{szName="B¹ch Hæ H¹ Giíi ChØ - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.5,tbParam={10,0,0,0,0,0},CallBack = _Message},},
+		[16] = {{szName="B¹ch Hæ KhÝ Giíi - Tù chän hÖ ph¸i",tbProp={6,1,30242,1,0,0},nCount=1,nRate=0.2,tbParam={7,0,0,0,0,0},CallBack = _Message},},
+		[17] = {{szName="XÝch L©n Ph¸t Qu¸n - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={2,0,0,0,0,0},CallBack = _Message},},
+		[18] = {{szName="XÝch L©n Kim Kh¶i - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.02,tbParam={6,0,0,0,0,0},CallBack = _Message},},
+		[19] = {{szName="XÝch L©n Yªu §¸i - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={5,0,0,0,0,0},CallBack = _Message},},
+		[20] = {{szName="XÝch L©n H¹ng Liªn - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={1,0,0,0,0,0},CallBack = _Message},},
+		[21] = {{szName="XÝch L©n Ngäc Béi - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={9,0,0,0,0,0},CallBack = _Message},},
+		[22] = {{szName="XÝch L©n Hµi - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={8,0,0,0,0,0},CallBack = _Message},},
+		[23] = {{szName="XÝch L©n Hé UyÓn - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={4,0,0,0,0,0},CallBack = _Message},},
+		[24] = {{szName="XÝch L©n Th­îng Giíi ChØ - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={3,0,0,0,0,0},CallBack = _Message},},
+		[25] = {{szName="XÝch L©n H¹ Giíi ChØ - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.04,tbParam={10,0,0,0,0,0},CallBack = _Message},},
+		[26] = {{szName="XÝch L©n KhÝ Giíi - Tù chän hÖ ph¸i",tbProp={6,1,30386,1,0,0},nCount=1,nRate=0.02,tbParam={7,0,0,0,0,0},CallBack = _Message},},
+		[27] = {{szName="Cµn Kh«n Song TuyÖt Béi",tbProp={6,1,2219,1,0,0},nCount=1,nRate=0.6,nExpiredTime=43200},},
+		[28] = {{szName="Cèng HiÕn LÔ bao",tbProp={6,1,30214,1,0,0},nCount=1,nRate=10,nExpiredTime=10080},},
+		[29] = {{szName="KiÕn ThiÕt LÔ Bao",tbProp={6,1,30216,1,0,0},nCount=1,nRate=10,nExpiredTime=10080},},
+		[30] = {{szName="ChiÕn BÞ LÔ Bao",tbProp={6,1,30218,1,0,0},nCount=1,nRate=10,nExpiredTime=10080},},
+		[31] = {{szName="Bao D­îc hoµn ",tbProp={6,1,910,1,0,0},nCount=1,nRate=15,nExpiredTime=20160},},
+		[32] = {{szName="B¹ch Hæ Trïng LuyÖn Ngäc",tbProp={6,1,3187,1,0,0},nCount=1,nRate=3},},
+		[33] = {{szName="M¹c B¾c TruyÒn Tèng LÖnh",tbProp={6,1,1448,1,0,0},nCount=1,nRate=5,nExpiredTime=20160},},
+		[34] = {{szName="Vâ L©m MËt TÞch",tbProp={6,1,26,1,0,0},nCount=1,nRate=6},},
+		[35] = {{szName="TÈy Tñy Kinh",tbProp={6,1,22,1,0,0},nCount=1,nRate=6},},
+		[36] = {{szName="Thiªn Linh §¬n",tbProp={6,1,3022,1,0,0},nCount=1,nRate=5,nExpiredTime=10080},},
+		[37] = {{szName="§¹i lùc hoµn lÔ bao",tbProp={6,1,2517,1,0,0},nCount=1,nRate=7,nExpiredTime=10080},},
+		[38] = {{szName="Phi tèc hoµn lÔ bao",tbProp={6,1,2520,1,0,0},nCount=1,nRate=7,nExpiredTime=10080},},
+		[39] = {{szName="Qu¶ Hoµng Kim",tbProp={6,1,907,1,0,0},nCount=1,nRate=10,nExpiredTime=10080},},
 	},
 }
 
